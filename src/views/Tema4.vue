@@ -65,7 +65,6 @@
                 .lista-naranja--vineta
                   span.text-bold > 
                 | &nbspSolicitar información acerca de los usuarios autorizados para obtener información.        
-
       .row(titulo="Frente a las fuentes de la información")
         .col-md-6
           figure

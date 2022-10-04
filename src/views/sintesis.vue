@@ -3,9 +3,14 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-sexto.color-primario.mb-3
-      h5 Atención comercial y operación en seguros
-      p.mt-3 Síntesis: Gestión, matemática financiera, contabilidad, análisis financieros y centrales de riesgos.
+    .row
+      .col-md-10
+        .titulo-sexto.color-primario.mb-3
+          h5 Atención comercial y operación en seguros
+          p.mt-3 Síntesis: Gestión, matemática financiera, contabilidad, análisis financieros y centrales de riesgos.          
+      .col-md-1.d-flex.flex-row-reverse
+            figure
+              img(src="@/assets/curso/temas/logoSena.png", alt="alt")
 
     
     p.mb-10 La siguiente imagen presenta una síntesis de las temáticas estudiadas en el componente formativo.

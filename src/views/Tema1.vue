@@ -20,6 +20,7 @@
 
         h3.titulo-tercero.p-5 Interés
          p.mt-3 Es el valor que se paga por un dinero prestado o el rendimiento financiero de un dinero prestado, que se puede calcular en días, meses, bimestres, trimestres, semestres y años; este interés según la tasa de riesgo, entre más riesgoso sea prestar el dinero, será mayor su tasa.  
+         p.mt-5 Existen dos tipos de interés que son: el interés simple y el interés compuesto. 
 
       p.p-5 A continuación, se presentan las definiciones y ejemplos de interés simple e interés compuesto:
 
@@ -222,96 +223,101 @@
     p Los pagos o cuotas iguales se conocen como anualidades. Debe tenerse en cuenta que cada cuota se compone de un abono a capital y un pago de intereses calculados sobre saldos.
     p.mt-3 Con el siguiente tema se va trabajar con las diversas anualidades, para tener un mayor conocimiento en el área financiera.
 
-    TabsC.color-acento-contenido
-      .py-4.py-md-5(titulo="Anualidad ordinaria vencida")
-          h5 Anualidad ordinaria vencida:
-          p.mt-3 Las anualidades ordinarias vencidas son aquellas en las cuales el primer pago se efectúa un período después de la fecha de negociación, conocida como 
-            span.text-bold periodo cero. 
-            | El valor futuro es equivalente a la serie uniforme vencida del pago de las cuotas.
-             
-          h5 Fórmula:
-            .row.justify-content-center
-              .col-sm-3.mt-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/formula8.png', alt='')
+   
+    .tarjeta.p-4.bg6.mg-img
+     .row 
+      TabsC.color-acento-contenido
+        .py-4.py-md-5(titulo="Anualidad ordinaria vencida")
+            h5 Anualidad ordinaria vencida:
+            p.mt-3 Las anualidades ordinarias vencidas son aquellas en las cuales el primer pago se efectúa un período después de la fecha de negociación, conocida como 
+              span.text-bold periodo cero. 
+              | El valor futuro es equivalente a la serie uniforme vencida del pago de las cuotas.
+              
+            h5 Fórmula:
+              .row.justify-content-center
+                .col-sm-3.mt-2
+                  figure
+                    img(src='@/assets/curso/temas/tema1/formula8.png', alt='')
 
-          .col-md.mb-5.mb-sm-0
-            ol.lista-ol
-              li 
-                | A = Anualidad, pago o cuota
-              li 
-                | P = Valor equivalente
-              li  
-                | I = interés
-              li 
-                | N = tiempo
+            .col-md.mb-5.mb-sm-0
+              ol.lista-ol
+                li 
+                  | A = Anualidad, pago o cuota
+                li 
+                  | P = Valor equivalente
+                li  
+                  | I = interés
+                li 
+                  | N = tiempo
 
-          h5 Ejemplo: 
-            p.mt-3 se hacen pagos efectuados al final de cada año, durante 12 años por un valor de $2.000.000 desembolsados al primer año a una tasa de 20 % anual.  
+            h5 Ejemplo: 
+              p.mt-3 se hacen pagos efectuados al final de cada año, durante 12 años por un valor de $2.000.000 desembolsados al primer año a una tasa de 20 % anual.  
 
-            .row.justify-content-center
-              .col-sm-4.mt-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/formula9.png', alt='')
+              .row.justify-content-center
+                .col-sm-4.mt-2
+                  figure
+                    img(src='@/assets/curso/temas/tema1/formula9.png', alt='')
 
-      .py-4.py-md-5(titulo="Valor presente de una anualidad ordinaria o vencida")
-          h5 Valor presente de una anualidad ordinaria o vencida:
-          p.mt-3 Cantidad de dinero, diferido en cuotas iguales, en períodos iguales, y aún bajo interés compuesto, entregará un valor equivalente total en el momento presente.
+        .py-4.py-md-5(titulo="Valor presente de una anualidad ordinaria o vencida")
+            h5 Valor presente de una anualidad ordinaria o vencida:
+            p.mt-3 Cantidad de dinero, diferido en cuotas iguales, en períodos iguales, y aún bajo interés compuesto, entregará un valor equivalente total en el momento presente.
 
-          h5 Fórmula:
-            .row.justify-content-center
-              .col-sm-3.mt-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/formula10.png', alt='')
+            h5 Fórmula:
+              .row.justify-content-center
+                .col-sm-3.mt-2
+                  figure
+                    img(src='@/assets/curso/temas/tema1/formula10.png', alt='')
 
-          .col-md.mb-5.mb-sm-0
-            ol.lista-ol
-              li 
-                | A = Anualidad, pago o cuota
-              li 
-                | P = Valor equivalente
-              li  
-                | I = interés
-              li 
-                | N = tiempo
+            .col-md.mb-5.mb-sm-0
+              ol.lista-ol
+                li 
+                  | A = Anualidad, pago o cuota
+                li 
+                  | P = Valor equivalente
+                li  
+                  | I = interés
+                li 
+                  | N = tiempo
 
-          h5 Ejemplo: 
-            p.mt-3 ¿Cuánto se debe depositar el día de hoy con el fin de retirar $5.000.000 al final de cada año, durante 12 años, si la tasa de interés es del 10 % anual?
+            h5 Ejemplo: 
+              p.mt-3 ¿Cuánto se debe depositar el día de hoy con el fin de retirar $5.000.000 al final de cada año, durante 12 años, si la tasa de interés es del 10 % anual?
 
-            .row.justify-content-center
-              .col-sm-4.mt-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/formula11.png', alt='')
+              .row.justify-content-center
+                .col-sm-4.mt-2
+                  figure
+                    img(src='@/assets/curso/temas/tema1/formula11.png', alt='')
 
-      .py-4.py-md-5(titulo="Valor futuro de una anualidad ordinaria o vencida")
-          h5 Valor futuro de una anualidad ordinaria o vencida:
-          p.mt-3 Valor acumulado al final de n periodos, acordando depósitos de $X cantidad y reconociendo un interés del i % por periodo.
+        .py-4.py-md-5(titulo="Valor futuro de una anualidad ordinaria o vencida")
+            h5 Valor futuro de una anualidad ordinaria o vencida:
+            p.mt-3 Valor acumulado al final de n periodos, acordando depósitos de $X cantidad y reconociendo un interés del i % por periodo.
 
-          h5 Fórmula:
-            .row.justify-content-center
-              .col-sm-6.mt-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/formula12.png', alt='')
+            h5 Fórmula:
+              .row.justify-content-center
+                .col-sm-6.mt-2
+                  figure
+                    img(src='@/assets/curso/temas/tema1/formula12.png', alt='')
 
-          h5 Ejemplo: 
-            p.mt-3 qué valor final corresponde a una serie uniforme de desembolsos de $10.000.000 efectuados al final de cada año, durante 12 años, si la tasa de interés es del 20 % anual.
+            h5 Ejemplo: 
+              p.mt-3 qué valor final corresponde a una serie uniforme de desembolsos de $10.000.000 efectuados al final de cada año, durante 12 años, si la tasa de interés es del 20 % anual.
 
-            .row.justify-content-center
-              .col-sm-4.mt-2
-                figure
-                  img(src='@/assets/curso/temas/tema1/formula13.png', alt='')
+              .row.justify-content-center
+                .col-sm-4.mt-2
+                  figure
+                    img(src='@/assets/curso/temas/tema1/formula13.png', alt='')
 
-    .tarjeta.color-secundario.p-3.mt-5
-      .row.justify-content-md-center
-        .col-lg-1
-            img(src="@/assets/curso/temas/tema1/img2.png")
-        .col-md-auto
-            h3.mt-3 Ejercicios de aplicación matemática financiera
-             p.text-small Para poner en práctica todos estos conocimientos, lo invitamos a solucionar los ejercicios propuestos en el documento.  
-        .col-lg-2.mt-3
-            a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Ejercicios_aplicación_matemática_financiera.pdf')" target="_blank")
-              span Descargar
-              i.fas.fa-file-download      
+     .row.justify-content-md-center
+      .col-md-10
+        .tarjeta.color-secundario.p-3.mt-5
+          .row.justify-content-md-center
+            .col-lg-1
+                img(src="@/assets/curso/temas/tema1/img2.png")
+            .col-md-auto
+                h3.mt-3 Ejercicios de aplicación matemática financiera
+                p.text-small Para poner en práctica todos estos conocimientos, lo invitamos a solucionar los ejercicios propuestos en el documento.  
+            .col-lg-2.mt-3
+                a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Ejercicios_aplicación_matemática_financiera.pdf')" target="_blank")
+                  span Descargar
+                  i.fas.fa-file-download      
                        
 
 

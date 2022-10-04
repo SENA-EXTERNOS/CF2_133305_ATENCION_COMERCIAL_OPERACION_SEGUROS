@@ -10,8 +10,7 @@
     .row
       .col-lg-8.p-3
         .cajon.color-primario.tarjeta-naranja.p-4
-          .h5 Color del texto del cajón
-          p Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.
+          p La información que se encuentra en las bases de datos es muy variable y, por este motivo, no existe una sola clase sino varias, como son las bases de datos estáticas, las bases de datos dinámicas, los directorios y las bases de datos especializadas.
       .col-md-4
         figure
           img(src="@/assets/curso/temas/tema2/img1.png", alt="alt")
@@ -459,7 +458,7 @@
      span.text-bold Ejemplo: 
      | la empresa adquiere un local por valor de $100.000.000 en efectivo.
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-5.bg6.mg-img
       .col-md-8
         LineaTiempoD(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(numero="1" titulo="Paso 1")
@@ -487,10 +486,10 @@
         figure
           img(src="@/assets/curso/temas/tema2/img14.png", alt="alt")
 
-    .row.justify-content-center.mt-5
-     .col-sm-10.p-3
-      .cajon.color-primario.tarjeta-naranja.p-4
-        p El objetivo de esta Norma es establecer los principios para la información financiera sobre activos financieros y pasivos financieros, de forma que se presente información útil y relevante para los usuarios de los estados financieros, para la evaluación de los importes.
+      .row.justify-content-center.mt-5
+      .col-sm-10.p-3
+        .cajon.color-primario.tarjeta-naranja.p-4
+          p El objetivo de esta Norma es establecer los principios para la información financiera sobre activos financieros y pasivos financieros, de forma que se presente información útil y relevante para los usuarios de los estados financieros, para la evaluación de los importes.
 
 
 </template>
