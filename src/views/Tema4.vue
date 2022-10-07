@@ -9,7 +9,7 @@
 
     .row
       .col-md-8
-        p El sistema financiero tiene como función captar recursos legales de los particulares y convertirlos en depósitos a la vista como las cuentas de ahorro, o a término como los CDT, para colocarlos en el mercado a través de instrumentos como los préstamos, descuentos, anticipos o cualquier operación de crédito. En este proceso, pueden llegar recursos lícitos e ilícitos, por lo que el Estado estructuró la normatividad que apunta a neutralizar y analizar tales conductas delictivas; por tanto, se establecen parámetros para que las entidades vigiladas, desarrollen e implementen el SARLFAT; su mayor efectividad depende de la adaptación a la naturaleza, actividades, productos y características de cada entidad, sin perder de vista que se trata de un interés global que redunda en bien de toda la comunidad mundial.                       
+        p El sistema financiero tiene como función captar recursos legales de los particulares y convertirlos en depósitos a la vista, como las cuentas de ahorro, o a término como los CDT, para colocarlos en el mercado a través de instrumentos como los préstamos, descuentos, anticipos o cualquier operación de crédito. En este proceso, pueden llegar recursos lícitos e ilícitos, por lo que el Estado estructuró la normatividad que apunta a neutralizar y analizar tales conductas delictivas; por tanto, se establecen parámetros para que las entidades vigiladas, desarrollen e implementen el SARLFAT; su mayor efectividad depende de la adaptación a la naturaleza, actividades, productos y características de cada entidad, sin perder de vista que se trata de un interés global que redunda en bien de toda la comunidad mundial.                       
       .col-md-4
         figure
           img(src="@/assets/curso/temas/tema4/img1.png", alt="alt")
@@ -49,10 +49,8 @@
 
         .col-md-6.mb-4.mb-md-0
            ol.lista-ol--cuadro
-              li 
-                .lista-naranja--vineta
-                  span.text-bold >
-                | &nbspEjercer el derecho fundamental al hábeas data en los términos de la presente ley, mediante la utilización de los procedimientos de consultas o reclamos, sin perjuicio de los demás mecanismos constitucionales y legales.
+              li              
+                  p #[span.text-bold.lista-naranja--vineta  >]  Ejercer el derecho fundamental al #[i hábeas data] en los términos de la presente ley, mediante la utilización de los procedimientos de consultas o reclamos, sin perjuicio de los demás mecanismos constitucionales y legales.
               li 
                 .lista-naranja--vineta
                   span.text-bold > 

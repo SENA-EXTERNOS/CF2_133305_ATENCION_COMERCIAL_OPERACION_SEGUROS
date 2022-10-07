@@ -13,7 +13,7 @@
             figure
               img(src="@/assets/curso/temas/tema1/img1.png", alt="alt")
           .col-sm-9.mb-3
-            p.mt-5 Se puede usar dos o más columnas para diagramar el texto, estos elementos pueden presentar contenedores que permitan diferenciar ideas o conceptos.    
+            p.mt-5 Las matemáticas financieras y el valor razonable, son temas importantes; por eso lo invitamos a reconocer la importancia de estos temas en nuestra vida diaria y en las empresas. Las matemáticas financieras tienen la finalidad de calcular, valorar, analizar y proyectar la representación del dinero en el tiempo y su capacidad para adquirir bienes y servicios.
             .cajon.color-primario.tarjeta-naranja.p-4
               .fila.justificar-contenido-entre.alinear-elementos-centro                  
                  p Es importante para la empresa y las personas, incentivar habilidades de conocimiento fundamental en ejecución, aplicadas a la matemática financiera en las áreas contables y financieras de una empresa, debido a que estas ayudan a calcular cuál sería el mejor método de apalancamiento financiero que puede aplicar una empresa o una persona, en el momento de hacer una inversión. 
@@ -35,33 +35,39 @@
                 img(src='@/assets/curso/temas/tema1/sl1.png', alt='alt')
         .row      
           .col-md-8.p-4
-              h5 Cálculo de un Valor Presente (VP) con un Valor Futuro (VF)
-              p 
-               span.text-bold Ejemplo
-              p.mt-4 Maicol recibirá la suma de $476.062 dentro de dos años, por un CDT que paga el 8 % cuatrimestral; ¿cuánto fue la inversión de la persona?.
-          .col-md-4  
-              figure
-                  img(src='@/assets/curso/temas/tema1/sl2.png', alt='alt')
-        .row 
-          .col-md-8.p-4
-            h5 Cálculo de un Valor Presente (VP) con un Valor Futuro (VF)
-            p Tomando como base la información del ejemplo anterior, podemos desarrollar este cálculo.              
+            h5 Interés simple 
+            p.text-bold Ejemplo 
+            p Maicol coloca un CDT en una entidad financiera y desea saber: ¿Qué interés producen $60.000 en un año, en 6 meses y veintiún días, al 24 %?         
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema1/sl3.png', alt='alt')
+              img(src='@/assets/curso/temas/tema1/sl9.png', alt='alt')
+
         .row 
-          .col-md-7.p-4
-            h5 Interés compuesto
-            p 
-             span.text-bold Ejemplo
-            p.mt-4 una persona invierte el día de hoy una suma de $300.000 en un CDT que paga 8 % cuatrimestral; se solicita demostrar cómo se presenta la capitalización de este dinero durante dos años. 
-            p C = $300.000<br>i = 8 %<br>T = 6 porque son dos años (1 cuatrimestre es = 4 meses entonces 1 año tiene 3 cuatrimestres)
-            p El valor futuro del CDT es: $476.062<br>Interés compuesto es: $176.062            
-            p Este es otro método para realizar, de una forma más rápida, la amortización del dinero en la inversión.
-            p F = C (1 + i)ⁿ<br>F = $300.000 (1 + 8 %)⁶ = $476.062,30
-          .col-md-5.mt-5
+          .col-md-8.p-4
+            h5 Monto de un capital utilizando interés simple 
+            p Se denomina monto de un capital, valor futuro, valor acumulado o valor nominal, a la suma entre el capital más el interés simple.             
+          .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema1/sl4.png', alt='alt')
+              img(src='@/assets/curso/temas/tema1/sl8.png', alt='alt')
+        
+        .row      
+          .col-md-8.p-4
+            h5 Monto de un capital utilizando interés simple 
+            p.text-bold Ejemplo 
+            p Si con el ejercicio anterior sabemos el monto, calculamos el monto para comprobar que está bien $82.440.
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/sl7.png', alt='alt')
+
+        .row 
+          .col-md-8.p-4
+            h5 Valor futuro de interés simple
+            p El monto o valor futuro con interés simple (F) es la suma entre el capital inicial y el interés simple ganado. 
+            p Reemplazando y simplificando, se obtiene el siguiente conjunto de ecuaciones como se observa en la imagen.
+          .col-md-4
+            figure
+              img(src='@/assets/curso/temas/tema1/sl6.png', alt='alt')
+
         .row 
           .col-md-8.p-4
             h5 Interés compuesto
@@ -71,37 +77,44 @@
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema1/sl5.png', alt='alt')
+
+        .row 
+          .col-md-7.p-4
+            h5 Interés compuesto
+            p 
+             span.text-bold Ejemplo
+            p.mt-4 Una persona invierte el día de hoy una suma de $300.000 en un CDT que paga 8 % cuatrimestral; se solicita demostrar cómo se presenta la capitalización de este dinero durante dos años. 
+            p C = $300.000<br>i = 8 %<br>T = 6 porque son dos años (1 cuatrimestre es = 4 meses entonces 1 año tiene 3 cuatrimestres)
+            p El valor futuro del CDT es: $476.062<br>Interés compuesto es: $176.062            
+            p Este es otro método para realizar, de una forma más rápida, la amortización del dinero en la inversión.
+            p F = C (1 + i)ⁿ<br>F = $300.000 (1 + 8 %)⁶ = $476.062,30
+          .col-md-5.mt-5
+            figure
+              img(src='@/assets/curso/temas/tema1/sl4.png', alt='alt')
+
         .row 
           .col-md-8.p-4
-            h5 Valor futuro de interés simple
-            p El monto o valor futuro con interés simple (F) es la suma entre el capital inicial y el interés simple ganado. 
-            p Reemplazando y simplificando, se obtiene el siguiente conjunto de ecuaciones como se observa en la imagen.
+            h5 Cálculo de un Valor Presente (VP) con un Valor Futuro (VF)
+            p Tomando como base la información del ejemplo anterior, podemos desarrollar este cálculo.              
           .col-md-4
             figure
-              img(src='@/assets/curso/temas/tema1/sl6.png', alt='alt')
+              img(src='@/assets/curso/temas/tema1/sl3.png', alt='alt')
+
         .row      
           .col-md-8.p-4
-            h5 Monto de un capital utilizando interés simple 
-            p.text-bold Ejemplo 
-            p si con el ejercicio anterior sabemos el monto, calculamos el monto para comprobar que está bien $82.440.
-          .col-md-4
-            figure
-              img(src='@/assets/curso/temas/tema1/sl7.png', alt='alt')
-        .row 
-          .col-md-8.p-4
-            h5 Monto de un capital utilizando interés simple 
-            p Se denomina monto de un capital, valor futuro, valor acumulado o valor nominal, a la suma entre el capital más el interés simple.             
-          .col-md-4
-            figure
-              img(src='@/assets/curso/temas/tema1/sl8.png', alt='alt')
-        .row      
-          .col-md-8.p-4
-            h5 Interés simple 
-            p.text-bold Ejemplo 
-            p Maicol coloca un CDT en una entidad financiera y desea saber: ¿Qué interés producen $60.000 en un año, en 6 meses y veintiún días, al 24 %?         
-          .col-md-4
-            figure
-              img(src='@/assets/curso/temas/tema1/sl9.png', alt='alt')
+              h5 Cálculo de un Valor Presente (VP) con un Valor Futuro (VF)
+              p 
+               span.text-bold Ejemplo
+              p.mt-4 Maicol recibirá la suma de $476.062 dentro de dos años, por un CDT que paga el 8 % cuatrimestral; ¿cuánto fue la inversión de la persona?.
+          .col-md-4  
+              figure
+                  img(src='@/assets/curso/temas/tema1/sl2.png', alt='alt')
+
+
+
+
+
+
 
     h3.mt-3 Tasa de interés
 
@@ -164,6 +177,17 @@
               figure
                 img(src='@/assets/curso/temas/tema1/formula3.png', alt='')
 
+          .col-md.mb-5.mb-sm-0
+           p donde:
+           ol.lista-ol
+              li 
+                | m = frecuencia de conversión
+              li 
+                | ip = interés periódico
+              li  
+                | in = interés nominal
+                  
+
           h5 Ejemplo: 
           p.mb-4 2 % mensual, 4 % bimestral, 6 % trimestral, 18 % semestral y 30 % anual. 
           p.mb-4 Es la tasa que se causa en un periodo de conversión (% por día, mes, bimestre, semestre, trimestre, año) o de pago de intereses, que se obtiene dividiendo la tasa nominal entre los periodos de conversión. 
@@ -221,7 +245,7 @@
     h3.mt-5 Anualidades
 
     p Los pagos o cuotas iguales se conocen como anualidades. Debe tenerse en cuenta que cada cuota se compone de un abono a capital y un pago de intereses calculados sobre saldos.
-    p.mt-3 Con el siguiente tema se va trabajar con las diversas anualidades, para tener un mayor conocimiento en el área financiera.
+    p.mt-3.mb-5 Con el siguiente tema se va a trabajar con las diversas anualidades, para tener un mayor conocimiento en el área financiera.
 
    
     .tarjeta.p-4.bg6.mg-img
@@ -257,6 +281,7 @@
                 .col-sm-4.mt-2
                   figure
                     img(src='@/assets/curso/temas/tema1/formula9.png', alt='')
+
 
         .py-4.py-md-5(titulo="Valor presente de una anualidad ordinaria o vencida")
             h5 Valor presente de una anualidad ordinaria o vencida:

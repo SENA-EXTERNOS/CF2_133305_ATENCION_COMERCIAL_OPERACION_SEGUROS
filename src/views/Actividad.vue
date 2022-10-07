@@ -16,7 +16,7 @@
           figure
             img(src="@/assets/curso/temas/actividad/actividad.png", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9     
-        p.mb-4 Este recorrido introductorio sobre la administración, proporciona conceptos claves de aplicación para la práctica empresarial y organizacional; por esta razón es importante realizar un repaso sobre los principales temas abordados, con la intención de afianzar y reforzar al aprendiz.
+        p.mb-4 Apreciado aprendiz, a continuación encontrará una serie de preguntas que deberá resolver, con el objetivo de evaluar la aprehensión de los conocimientos expuestos en este componente formativo.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

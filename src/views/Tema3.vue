@@ -10,7 +10,7 @@
     .row
       .col-md-8
         .col-sm-10 
-          p Una empresa está conformada por una estructura financiera y una estructura operacional. La primera, está conformada por los activos, los pasivos y el patrimonio, y la segunda, está conformada por los ingresos, los gastos y los costos de la empresa. A continuación, se desarrolla un
+          p Una empresa está conformada por una estructura financiera y una estructura operacional. La primera, está conformada por los activos, los pasivos y el patrimonio, y la segunda está conformada por los ingresos, los gastos y los costos de la empresa. A continuación, se desarrolla un
            span.text-bold  estado de situación financiera 
            | y un 
            span.text-bold estado de resultado integral 
@@ -65,13 +65,16 @@
           .row
             .col-md-12.mb-4.mb-md-0
               h4 Análisis horizontal
-              p Compara estados financieros homogéneos correspondientes a dos o más periodos, es dinámico; permite determinar cambios o variaciones de un periodo a otro e interpretar dichas variaciones para una oportuna toma de decisiones. Se estudian los estados financieros de más de un período y/o más de una empresa.
+              p Compara estados financieros 
+               span.text-bold homogéneos 
+               | correspondientes a dos o más periodos, es dinámico; permite determinar cambios o variaciones de un periodo a otro e interpretar dichas variaciones para una oportuna toma de decisiones. Se estudian los estados financieros de más de un período y/o más de una empresa.
               .row.justify-content-center
                 .col-md-4
                   figura
                     img(src='@/assets/curso/temas/tema3/formula2.png', alt='alt')
 
     h5.mt-5 Razones o indicadores financieros
+    p Contablemente, una razón financiera es una comparación numérica entre dos cuentas de un mismo estado financiero o dos estados financieros diferentes, con el fin de formarse una idea acerca del comportamiento de algún aspecto, sector, o área específica de la organización. Son cocientes que aceptan comparar la situación financiera de la entidad, con excelentes valores.
       .row.justify-content-center.mt-5
         .col-md-6
           figure
@@ -80,7 +83,7 @@
     p.mt-5.mb-5  A continuación, se presentan las razones e indicadores financieros: 
 
     AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta-acordeon-verde").mt-5
-      .row(titulo="Tasa de interés")
+      .row(titulo="Razones de liquidez")
         .col-12.mb-md-0.p-5
           p Indican cuál es la 
            span.text-bold capacidad
@@ -182,7 +185,7 @@
           .row.justify-content-center
            .col-sm-8
               figure
-                img(src='@/assets/curso/temas/tema3/formula9.png', alt='')                
+                img(src='@/assets/curso/temas/tema3/formula9.png', alt='')
 </template>
 
 <script>

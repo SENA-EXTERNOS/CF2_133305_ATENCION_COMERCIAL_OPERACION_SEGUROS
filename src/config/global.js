@@ -34,7 +34,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Manuales de suscripción',
+        titulo: 'Matemáticas financiera',
         desarrolloContenidos: true,
       },
 
@@ -134,7 +134,7 @@ export default {
       referencia:
         'Ley 1314 de 2009. Por la cual se regulan los principios y normas de contabilidad e información financiera y de aseguramiento de información aceptados en Colombia, se señalan las autoridades competentes, el procedimiento para su expedición y se determinan las entidades responsables de vigilar su cumplimiento. Julio 13 de 2009. DO. No. 47.409',
       tipo: 'Ley',
-      descarga:
+      link:
         'https://www.suin-juriscol.gov.co/viewDocument.asp?ruta=Leyes/1677255#:~:text=por%20la%20cual%20se%20regulan,responsables%20de%20vigilar%20su%20cumplimiento',
     },
     {
@@ -149,7 +149,7 @@ export default {
       referencia:
         'Superintendencia Financiera de Colombia. (1995). Circular básica contable y financiera. ',
       tipo: 'Circular',
-      descarga: 'https://www.superfinanciera.gov.co/jsp/15466',
+      link: 'https://www.superfinanciera.gov.co/jsp/15466',
     },
   ],
   glosario: [

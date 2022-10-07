@@ -6,7 +6,8 @@
       .titulo-principal__numero
         span 2
       h1 Gestión de la información y contabilidad básica
-
+    
+    p La contabilidad es una disciplina donde podemos registrar los movimientos contables y financieros de un ente económico. Por medio de ella, podemos obtener información basada en hechos reales de una empresa o negocio que se presentan durante un periodo que es igual a un año, donde se recopila información para la toma de decisiones. Debido a que esta información es confidencial de una organización o empresa, es necesario gestionarla y almacenarla en bases de datos para su manejo y protección.
     .row
       .col-lg-8.p-3
         .cajon.color-primario.tarjeta-naranja.p-4
@@ -24,7 +25,6 @@
           .row.justify-content-center
            .tarjeta-slide__contenedor
              .tarjeta-slide__contenido          
-               h5 Base de datos estática
                p Son aquellas bases de datos estáticas en las que no se puede modificar la información que contienen.  
              .col-md-4             
                 .tarjeta-slide__img.responsive(:style="{'background-color': '#E5F2DB','background-image': `url(${require('@/assets/curso/temas/tema2/tj1.png')})`}")
@@ -35,7 +35,6 @@
           .row.justify-content-center
            .tarjeta-slide__contenedor
              .tarjeta-slide__contenido          
-               h5 Base de datos dinámica
                p Son aquellas bases de datos que aparte de la consulta, se puede modificar actualizando la información que se encuentra en ella. Según su contenido, la podemos identificar. 
              .img-fluid             
                 .tarjeta-slide__img(:style="{'background-color': '#E5F2DB','background-image': `url(${require('@/assets/curso/temas/tema2/tj2.png')})`}")                 
@@ -46,7 +45,6 @@
           .row.justify-content-center
            .tarjeta-slide__contenedor
              .tarjeta-slide__contenido          
-               h5 Directorio
                p Base de datos donde encontramos listados de información de clientes para su contacto.
              .img-fluid             
                 .tarjeta-slide__img(:style="{'background-color': '#E5F2DB','background-image': `url(${require('@/assets/curso/temas/tema2/tj3.png')})`}") 
@@ -57,7 +55,6 @@
           .row.justify-content-center
            .tarjeta-slide__contenedor
              .tarjeta-slide__contenido          
-               h5 Especializadas
                p Bases de datos donde tenemos información específica de los clientes.
              .img-fluid             
                 .tarjeta-slide__img(:style="{'background-color': '#E5F2DB','background-image': `url(${require('@/assets/curso/temas/tema2/tj4.png')})`}")                 
@@ -174,7 +171,7 @@
             .row
               .col-sm-12  
                 h3.texto-centro Revelación plena  
-                p.text-small.texto-centro Informa resumidamente, todo lo que se va evaluar, su situación financiera y los cambios en el patrimonio; se aplica en el momento de realizar un estado financiero detallando los procesos contables en las notas a los estados. Esta norma revela a los estados financieros una información suplementaria sobre la situación económica administrativa y financiera de la empresa.                
+                p.text-small.texto-centro Informa resumidamente, todo lo que se va a evaluar, su situación financiera y los cambios en el patrimonio; se aplica en el momento de realizar un estado financiero detallando los procesos contables en las notas a los estados. Esta norma revela a los estados financieros una información suplementaria sobre la situación económica, administrativa y financiera de la empresa.                
              
     h5.mt-5 Elementos de situación financiera
 
@@ -218,12 +215,14 @@
             span.text-bold Normas Internacionales de Contabilidad (NIC) 
             |– International Accounting Standards (IAS). Las NIIF están conformadas desde la norma 1, hasta la norma 13 y las NIC comprenden desde la norma 1, hasta la norma 41.
 
+    p.mt-5 A continuación, se profundiza un poco más sobre las normas internacionales:
+
     .row.justify-content-center.mt-5
       .col-md-8
         LineaTiempoD(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(numero="1" titulo="NIIF – Normas Internacionales de Información Financiera")
             .col-md-12.mb-8.mb-md-0
-              p Las NIIF forman parte de unos estándares contables universales fundados para agrupar o unificar la información financiera, presentada por el sector empresarial para beneficiar la ejecución de negocios nacionales e internacionales.
+              p Las NIIF forman parte de unos estándares contables universales fundados para agrupar o unificar la información financiera, presentada por el sector empresarial, para beneficiar la ejecución de negocios nacionales e internacionales.
               p De acuerdo con lo anterior, para poseer unos estándares contables universales y simplificar la ejecución de negocios, la International Accounting Standards Board, más conocida como IASB, fundó las Normas Internacionales de Información Financiera (NIIF). En el caso de Colombia, estas normas internacionales de contabilidad fueron acogidas hasta el año 2009, con la expedición de la Ley 1314 del mismo año y donde estas normas se comenzaron a implementar en el año 2014.
 
           .row(numero="2" titulo="NIC – Normas Internacionales de Contabilidad")
@@ -412,7 +411,7 @@
     h5.mt-5 NIIF 10
       .row.justify-content-center
         .col-sm-10
-          .cajon.color-secundario.cajon-amarillo.p-4.mt-3
+          .cajon.color-secundario.color-yellow-recuadro.p-4.mt-3
             p Esta Norma establece que los estados financieros consolidados presentan los activos, pasivos, patrimonio, ingresos, gastos, y flujos de efectivo de la empresa y sus sucursales como una sola entidad económica.
            
     <Separador></Separador>           
@@ -445,7 +444,7 @@
         .row 
           .col-md-6.p-4.mt-5
             h5 Cuenta T
-            p Esta herramienta sirve para liquidar las cuentas para poder colocar este resultado ya sea en libro mayor y balance o en los informes donde se necesite la información.
+            p Esta herramienta sirve para liquidar las cuentas para poder colocar este resultado, ya sea en libro mayor y balance o en los informes donde se necesite la información.
           .col-md-6.p-5
                 figure
                   img(src='@/assets/curso/temas/tema2/sld3.png', alt='alt')
@@ -458,8 +457,9 @@
      span.text-bold Ejemplo: 
      | la empresa adquiere un local por valor de $100.000.000 en efectivo.
 
+
     .row.justify-content-center.mt-5.bg6.mg-img
-      .col-md-8
+      .col-md-7
         LineaTiempoD(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(numero="1" titulo="Paso 1")
             .col-md-12.mb-8.mb-md-0
@@ -488,8 +488,8 @@
 
       .row.justify-content-center.mt-5
       .col-sm-10.p-3
-        .cajon.color-primario.tarjeta-naranja.p-4
-          p El objetivo de esta Norma es establecer los principios para la información financiera sobre activos financieros y pasivos financieros, de forma que se presente información útil y relevante para los usuarios de los estados financieros, para la evaluación de los importes.
+        .cajon.color-primario.tarjeta-naranja.opacidad.p-4
+          p Los libros auxiliares son documentos que permiten llevar el movimiento contable de cada cuenta a nivel auxiliar de la empresa y tienen como fin mostrar el detalle de cada una de estas, para que faciliten el control de los recursos de la empresa, sobre todo aquellas que tienen bastante movimiento como son: efectivo, bancos, clientes, proveedores, IVA, ventas, entre otras.
 
 
 </template>
