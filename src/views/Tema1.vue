@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Manuales de suscripción
+      h1 Matemáticas financiera
     .row.justify-content-center
       .tarjeta.tarjeta--verde
         .row.justify-content-left
