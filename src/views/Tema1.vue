@@ -24,9 +24,9 @@
 
       p.p-5 A continuación, se presentan las definiciones y ejemplos de interés simple e interés compuesto:
 
-      SlyderA(tipo="b").color-primario.bg5
+      SlyderA(tipo="b").color-primario.p-5.bg5
         .row          
-          .col-md-8.p-4
+          .col-md-8
             h5 Interés simple
             p Se paga al final de cada periodo; por lo tanto, el capital prestado o invertido se mantiene, no varía; la cantidad recibida por interés siempre va a ser la misma y eso significa, que no hay capitalización de los intereses
             p.mt-4 El interés resulta de multiplicar el capital prestado, por la tasa o porcentaje, por las unidades de tiempo total que corresponde a la obligación.
@@ -34,7 +34,7 @@
             figure
                 img(src='@/assets/curso/temas/tema1/sl1.png', alt='alt')
         .row      
-          .col-md-8.p-4
+          .col-md-8
             h5 Interés simple 
             p.text-bold Ejemplo 
             p Maicol coloca un CDT en una entidad financiera y desea saber: ¿Qué interés producen $60.000 en un año, en 6 meses y veintiún días, al 24 %?         
@@ -43,7 +43,7 @@
               img(src='@/assets/curso/temas/tema1/sl9.png', alt='alt')
 
         .row 
-          .col-md-8.p-4
+          .col-md-8
             h5 Monto de un capital utilizando interés simple 
             p Se denomina monto de un capital, valor futuro, valor acumulado o valor nominal, a la suma entre el capital más el interés simple.             
           .col-md-4
@@ -51,7 +51,7 @@
               img(src='@/assets/curso/temas/tema1/sl8.png', alt='alt')
         
         .row      
-          .col-md-8.p-4
+          .col-md-8
             h5 Monto de un capital utilizando interés simple 
             p.text-bold Ejemplo 
             p Si con el ejercicio anterior sabemos el monto, calculamos el monto para comprobar que está bien $82.440.
@@ -60,7 +60,7 @@
               img(src='@/assets/curso/temas/tema1/sl7.png', alt='alt')
 
         .row 
-          .col-md-8.p-4
+          .col-md-8
             h5 Valor futuro de interés simple
             p El monto o valor futuro con interés simple (F) es la suma entre el capital inicial y el interés simple ganado. 
             p Reemplazando y simplificando, se obtiene el siguiente conjunto de ecuaciones como se observa en la imagen.
@@ -69,31 +69,29 @@
               img(src='@/assets/curso/temas/tema1/sl6.png', alt='alt')
 
         .row 
-          .col-md-8.p-4
+          .col-md-8
             h5 Interés compuesto
             p Al final de cada periodo el capital cambia, debido a que los intereses se adicionan al capital y forman un nuevo capital denominado monto; sobre este monto se vuelven a calcular intereses y, por lo tanto, hay capitalización de los intereses.
-            p.mt-5 Se define la operación financiera, el capital aumenta al final de cada periodo por la suma de los intereses vencidos. El resultado es el valor del capital que se le denomina valor futuro y al valor de los intereses, el interés compuesto. El interés compuesto es indispensable en la Ingeniería Económica, Matemática Financieras, Evaluación de Proyectos y, en general, por todo el sistema financiero colombiano.
-            p.mt-5 Este interés se valora periodo a periodo del dinero comprometido en la operación financiera y, por tal motivo, es el tipo de interés más utilizado en el sistema financiero.
+            p Se define la operación financiera, el capital aumenta al final de cada periodo por la suma de los intereses vencidos. El resultado es el valor del capital que se le denomina valor futuro y al valor de los intereses, el interés compuesto. El interés compuesto es indispensable en la Ingeniería Económica, Matemática Financieras, Evaluación de Proyectos y, en general, por todo el sistema financiero colombiano.
+            p Este interés se valora periodo a periodo del dinero comprometido en la operación financiera y, por tal motivo, es el tipo de interés más utilizado en el sistema financiero.
           .col-md-4
             figure
               img(src='@/assets/curso/temas/tema1/sl5.png', alt='alt')
 
         .row 
-          .col-md-7.p-4
-            h5 Interés compuesto
-            p 
-             span.text-bold Ejemplo
-            p.mt-4 Una persona invierte el día de hoy una suma de $300.000 en un CDT que paga 8 % cuatrimestral; se solicita demostrar cómo se presenta la capitalización de este dinero durante dos años. 
-            p C = $300.000<br>i = 8 %<br>T = 6 porque son dos años (1 cuatrimestre es = 4 meses entonces 1 año tiene 3 cuatrimestres)
+          .col-md-8
+            h5.mt-3 Interés compuesto
+            h5 Ejemplo
+            p.mt-1 Una persona invierte el día de hoy una suma de $300.000 en un CDT que paga 8 % cuatrimestral; se solicita demostrar cómo se presenta la capitalización de este dinero durante dos años.<br>C = $300.000<br>i = 8 %<br>T = 6 porque son dos años (1 cuatrimestre es = 4 meses entonces 1 año tiene 3 cuatrimestres)
             p El valor futuro del CDT es: $476.062<br>Interés compuesto es: $176.062            
             p Este es otro método para realizar, de una forma más rápida, la amortización del dinero en la inversión.
             p F = C (1 + i)ⁿ<br>F = $300.000 (1 + 8 %)⁶ = $476.062,30
-          .col-md-5.mt-5
+          .col-md-4.mt-5
             figure
               img(src='@/assets/curso/temas/tema1/sl4.png', alt='alt')
 
         .row 
-          .col-md-8.p-4
+          .col-md-8
             h5 Cálculo de un Valor Presente (VP) con un Valor Futuro (VF)
             p Tomando como base la información del ejemplo anterior, podemos desarrollar este cálculo.              
           .col-md-4
@@ -101,10 +99,9 @@
               img(src='@/assets/curso/temas/tema1/sl3.png', alt='alt')
 
         .row      
-          .col-md-8.p-4
+          .col-md-8
               h5 Cálculo de un Valor Presente (VP) con un Valor Futuro (VF)
-              p 
-               span.text-bold Ejemplo
+              p #[span.text-bold]Ejemplo
               p.mt-4 Maicol recibirá la suma de $476.062 dentro de dos años, por un CDT que paga el 8 % cuatrimestral; ¿cuánto fue la inversión de la persona?.
           .col-md-4  
               figure

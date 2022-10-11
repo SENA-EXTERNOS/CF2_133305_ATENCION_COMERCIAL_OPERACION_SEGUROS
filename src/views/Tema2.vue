@@ -8,6 +8,7 @@
       h1 Gestión de la información y contabilidad básica
     
     p La contabilidad es una disciplina donde podemos registrar los movimientos contables y financieros de un ente económico. Por medio de ella, podemos obtener información basada en hechos reales de una empresa o negocio que se presentan durante un periodo que es igual a un año, donde se recopila información para la toma de decisiones. Debido a que esta información es confidencial de una organización o empresa, es necesario gestionarla y almacenarla en bases de datos para su manejo y protección.
+
     .row
       .col-lg-8.p-3
         .cajon.color-primario.tarjeta-naranja.p-4

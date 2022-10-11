@@ -50,19 +50,13 @@
         .col-md-6.mb-4.mb-md-0
            ol.lista-ol--cuadro
               li              
-                  p #[span.text-bold.lista-naranja--vineta  >]  Ejercer el derecho fundamental al #[i hábeas data] en los términos de la presente ley, mediante la utilización de los procedimientos de consultas o reclamos, sin perjuicio de los demás mecanismos constitucionales y legales.
+                  p #[span.text-bold.lista-naranja--vineta  >]  &nbspEjercer el derecho fundamental al #[i hábeas data] en los términos de la presente ley, mediante la utilización de los procedimientos de consultas o reclamos, sin perjuicio de los demás mecanismos constitucionales y legales.
               li 
-                .lista-naranja--vineta
-                  span.text-bold > 
-                | &nbspSolicitar el respeto y la protección de los demás derechos constitucionales o legales, así como de las demás disposiciones de la presente ley, mediante la utilización del procedimiento de reclamos y peticiones. 
+                  p #[span.text-bold.lista-naranja--vineta  >] &nbspSolicitar el respeto y la protección de los demás derechos constitucionales o legales, así como de las demás disposiciones de la presente ley, mediante la utilización del procedimiento de reclamos y peticiones. 
               li 
-                .lista-naranja--vineta
-                  span.text-bold > 
-                | &nbspSolicitar prueba de la certificación de la existencia de la autorización expedida por la fuente, o por el usuario.          
+                  p #[span.text-bold.lista-naranja--vineta  >] &nbspSolicitar prueba de la certificación de la existencia de la autorización expedida por la fuente, o por el usuario.          
               li 
-                .lista-naranja--vineta
-                  span.text-bold > 
-                | &nbspSolicitar información acerca de los usuarios autorizados para obtener información.        
+                  p #[span.text-bold.lista-naranja--vineta  >]  &nbspSolicitar información acerca de los usuarios autorizados para obtener información.        
       .row(titulo="Frente a las fuentes de la información")
         .col-md-6
           figure
@@ -71,17 +65,11 @@
         .col-md-6.mb-4.mb-md-0
            ol.lista-ol--cuadro
               li 
-                .lista-naranja--vineta
-                  span.text-bold >
-                | &nbspEjercer los derechos fundamentales al hábeas data y de petición, cuyo cumplimiento se podrá realizar a través de los operadores, conforme lo previsto en los procedimientos de consultas y reclamos de esta ley, sin perjuicio de los demás mecanismos constitucionales o legales.
+                p #[span.text-bold.lista-naranja--vineta  >]  &nbspEjercer los derechos fundamentales al #[i hábeas data] y de petición, cuyo cumplimiento se podrá realizar a través de los operadores, conforme lo previsto en los procedimientos de consultas y reclamos de esta ley, sin perjuicio de los demás mecanismos constitucionales o legales.
               li 
-                .lista-naranja--vineta
-                  span.text-bold > 
-                | &nbspSolicitar información o pedir la actualización o rectificación de los datos contenidos en la base de datos, lo que realizará el operador, con base en la información aportada por la fuente, conforme se establece en el procedimiento para consultas, reclamos y peticiones.
+                p #[span.text-bold.lista-naranja--vineta  >]  &nbspSolicitar información o pedir la actualización o rectificación de los datos contenidos en la base de datos, lo que realizará el operador, con base en la información aportada por la fuente, conforme se establece en el procedimiento para consultas, reclamos y peticiones.
               li 
-                .lista-naranja--vineta
-                  span.text-bold > 
-                | &nbspSolicitar prueba de la autorización, cuando dicha autorización sea requerida conforme lo previsto en la presente ley.
+                p #[span.text-bold.lista-naranja--vineta  >]  &nbspSolicitar prueba de la autorización, cuando dicha autorización sea requerida conforme lo previsto en la presente ley.
 
       .row(titulo="Frente a los usuarios")
         .col-md-6
@@ -91,13 +79,9 @@
         .col-md-6.mb-4.mb-md-0
            ol.lista-ol--cuadro
               li 
-                .lista-naranja--vineta
-                  span.text-bold >
-                | &nbspSolicitar información sobre la utilización que el usuario le está dando a la información, cuando dicha información no hubiere sido suministrada por el operador.
+                p #[span.text-bold.lista-naranja--vineta  >]  &nbspSolicitar información sobre la utilización que el usuario le está dando a la información, cuando dicha información no hubiere sido suministrada por el operador.
               li 
-                .lista-naranja--vineta
-                  span.text-bold > 
-                | &nbspSolicitar prueba de la autorización, cuando ella sea requerida conforme lo previsto en la presente ley.
+                p #[span.text-bold.lista-naranja--vineta  >]  &nbspSolicitar prueba de la autorización, cuando ella sea requerida conforme lo previsto en la presente ley.
 
     .row.justify-content-center.mt-5
      .col-sm-10.p-3
