@@ -17,7 +17,16 @@
         figure
           img(src="@/assets/curso/temas/tema2/img1.png", alt="alt")
 
-       
+    h5 Gestión de la información
+    .row.justify-content-center
+      .col-sm-10
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img18.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p La gestión de la información utiliza medios como las computadoras, un componente indispensable en la sociedad moderna para procesar datos con ahorro de tiempo y esfuerzo. Es el manejo de base de datos de clientes de la empresa aseguradora, donde debemos tenerla bajo seguridad y el principio de la prudencia, dado que es información importante y secreta que administra la empresa. 
+                
 
     p.mt-5 A continuación, se presentan las diferentes clases de bases de datos:
     
