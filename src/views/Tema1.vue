@@ -18,9 +18,9 @@
               .fila.justificar-contenido-entre.alinear-elementos-centro                  
                  p Es importante para la empresa y las personas, incentivar habilidades de conocimiento fundamental en ejecución, aplicadas a la matemática financiera en las áreas contables y financieras de una empresa, debido a que estas ayudan a calcular cuál sería el mejor método de apalancamiento financiero que puede aplicar una empresa o una persona, en el momento de hacer una inversión. 
 
-        h3.titulo-tercero.p-5 Interés
-         p.mt-3 Es el valor que se paga por un dinero prestado o el rendimiento financiero de un dinero prestado, que se puede calcular en días, meses, bimestres, trimestres, semestres y años; este interés según la tasa de riesgo, entre más riesgoso sea prestar el dinero, será mayor su tasa.  
-         p.mt-5 Existen dos tipos de interés que son: el interés simple y el interés compuesto. 
+        h3.titulo-tercero Interés
+        p.mt-3 Es el valor que se paga por un dinero prestado o el rendimiento financiero de un dinero prestado, que se puede calcular en días, meses, bimestres, trimestres, semestres y años; este interés según la tasa de riesgo, entre más riesgoso sea prestar el dinero, será mayor su tasa.  
+        p.mt-5 Existen dos tipos de interés que son: el interés simple y el interés compuesto. 
 
       p.p-5 A continuación, se presentan las definiciones y ejemplos de interés simple e interés compuesto:
 
