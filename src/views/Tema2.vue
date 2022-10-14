@@ -7,17 +7,15 @@
         span 2
       h1 Gestión de la información y contabilidad básica
     
-    p La contabilidad es una disciplina donde podemos registrar los movimientos contables y financieros de un ente económico. Por medio de ella, podemos obtener información basada en hechos reales de una empresa o negocio que se presentan durante un periodo que es igual a un año, donde se recopila información para la toma de decisiones. Debido a que esta información es confidencial de una organización o empresa, es necesario gestionarla y almacenarla en bases de datos para su manejo y protección.
-
-    .row
-      .col-lg-8.p-3
-        .cajon.color-primario.tarjeta-naranja.p-4
-          p La información que se encuentra en las bases de datos es muy variable y, por este motivo, no existe una sola clase sino varias, como son las bases de datos estáticas, las bases de datos dinámicas, los directorios y las bases de datos especializadas.
+    .row.justify-content-center
       .col-md-4
         figure
-          img(src="@/assets/curso/temas/tema2/img1.png", alt="alt")
+          img(src="@/assets/curso/temas/tema2/img19.png", alt="alt")    
+      .col-lg-8.p-3
+        p La contabilidad es una disciplina donde podemos registrar los movimientos contables y financieros de un ente económico. Por medio de ella, podemos obtener información basada en hechos reales de una empresa o negocio que se presentan durante un periodo que es igual a un año, donde se recopila información para la toma de decisiones. Debido a que esta información es confidencial de una organización o empresa, es necesario gestionarla y almacenarla en bases de datos para su manejo y protección.
+      
 
-    h5 Gestión de la información
+    h5.mt-5.mb-3 Gestión de la información
     .row.justify-content-center
       .col-sm-10
         .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
@@ -27,6 +25,14 @@
           .bloque-texto-g__texto.p-4
             p La gestión de la información utiliza medios como las computadoras, un componente indispensable en la sociedad moderna para procesar datos con ahorro de tiempo y esfuerzo. Es el manejo de base de datos de clientes de la empresa aseguradora, donde debemos tenerla bajo seguridad y el principio de la prudencia, dado que es información importante y secreta que administra la empresa. 
                 
+    h5.mt-5 Tipos de información
+    .row
+      .col-lg-8.p-3
+        .cajon.color-primario.tarjeta-naranja.p-4
+          p La información que se encuentra en las bases de datos es muy variable y, por este motivo, no existe una sola clase sino varias, como son las bases de datos estáticas, las bases de datos dinámicas, los directorios y las bases de datos especializadas.
+      .col-md-4
+        figure
+          img(src="@/assets/curso/temas/tema2/img1.png", alt="alt")
 
     p.mt-5 A continuación, se presentan las diferentes clases de bases de datos:
     
