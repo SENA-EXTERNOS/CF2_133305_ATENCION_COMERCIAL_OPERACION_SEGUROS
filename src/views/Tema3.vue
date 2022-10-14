@@ -23,7 +23,7 @@
                   h3.mt-3 Estados financieros
                   p.text-small Para ampliar la información anterior, lo invitamos a leer el documento. 
               .col-lg-3.mt-3
-                a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Estados_financieros.pdf')" target="_blank")
+                a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/ANEXO estados financieros.pdf')" target="_blank")
                  span Descargar
                   i.fas.fa-file-download      
                                         

@@ -17,11 +17,7 @@
         figure
           img(src="@/assets/curso/temas/tema2/img1.png", alt="alt")
 
-    h5 Gestión de la información
-    .row.justify-content-center
-      .col-md-8
-        figure
-          img(src="@/assets/curso/temas/tema2/img18.png", alt="alt")          
+       
 
     p.mt-5 A continuación, se presentan las diferentes clases de bases de datos:
     
@@ -271,7 +267,7 @@
             h3.mt-3 CINIIF, NIIF y NIC
              p.text-small Para ampliar la información, lo invitamos a leer el documento  
         .col-lg-2.mt-3
-            a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/CINIIF_NIIF_y_NIC.pdf')" target="_blank")
+            a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/ANEXO CINIF aplicadas a los grupos.pdf')" target="_blank")
               span Descargar
               i.fas.fa-file-download 
 
