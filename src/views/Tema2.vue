@@ -506,7 +506,7 @@
 
       .row.justify-content-center.mt-5
       .col-sm-10.p-3
-        .cajon.color-primario.tarjeta-naranja.opacidad.p-4
+        .cajon.color-primario.tarjeta-naranja.transparencia-cuadro.p-4
           p Los libros auxiliares son documentos que permiten llevar el movimiento contable de cada cuenta a nivel auxiliar de la empresa y tienen como fin mostrar el detalle de cada una de estas, para que faciliten el control de los recursos de la empresa, sobre todo aquellas que tienen bastante movimiento como son: efectivo, bancos, clientes, proveedores, IVA, ventas, entre otras.
 
 
