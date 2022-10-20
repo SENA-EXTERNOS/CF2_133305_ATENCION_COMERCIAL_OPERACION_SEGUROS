@@ -1,9 +1,9 @@
 export default {
   global: {
     componenteFormativo:
-      'Manuales de suscripción, inspección y elaboración de informes',
+      'Gestión, matemática financiera, contabilidad, análisis financieros y centrales de riesgos',
     descripcionCurso:
-      'Tramitar un contrato para una póliza de riesgo surge de la necesidad de protección frente a un peligro. Es menester, entonces, contratar un seguro para evitar o mitigar consecuencias desfavorables, y es por esto que las pólizas son fundamentales para ahorrar y proteger. Esto implica tener en cuenta: amparos, exclusiones, valores asegurados, deducibles, tasas, amparos adicionales, indemnizaciones, coberturas y modificaciones.',
+      'La contabilidad es la ciencia interdisciplinaria por excelencia; personas y organizaciones necesitan medir y reconocer sus hechos económicos de forma oportuna y real, para lograr una dirección y mejora continua de sus procesos. El resultado contable permite obtener un análisis financiero para poder realizar una gestión financiera e identificar los riesgos en el momento de llevar a cabo una inversión.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal_01.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal_01.png'),
     imagenesDecorativasBanner: [
