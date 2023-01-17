@@ -19,7 +19,7 @@
         .row
           .col-md-7.p-5
             h4 Lavado de activos
-            p Es legalizar recursos de origen ilícito; la procedencia de dichos bienes no se sabe de dónde salen, nunca será legal, a pesar de la cantidad de transacciones que se realicen. En repetidas oportunidades, las personas no saben cuándo se está cometiendo el delito de lavado de activos. Toda persona jurídica o natural que adquiera, resguarde, invierta, transporte, transforme, custodie, o administre bienes procedentes de actividades de enriquecimiento ilícito, narcotráfico, extorsión, rebelión, secuestro, delitos contra la administración pública, tráfico de migrantes, trata de personas, tráfico de armas o delitos contra el sistema financiero, están incurriendo en delitos de lavado. Estos delincuentes son denominados como individuos al margen de la ley          
+            p Se refiere a legalizar recursos de origen ilícito; la procedencia de dichos bienes no se sabe de donde salen, nunca será legal, a pesar de la cantidad de transacciones que se realicen. En repetidas oportunidades, las personas no saben cuándo se está cometiendo el delito de lavado de activos. Toda persona jurídica o natural que adquiera, resguarde, invierta, transporte, transforme, custodie, o administre, bienes procedentes de actividades de enriquecimiento ilícito, narcotráfico, extorsión, rebelión, secuestro, delitos contra la administración pública, tráfico de migrantes, trata de personas, tráfico de armas o delitos contra el sistema financiero, están incurriendo en delitos de lavado. Estos delincuentes son denominados como individuos al margen de la ley.          
           .col-md-5.p-5
             .row.justify-content-center
               .col-md-8   
@@ -84,9 +84,9 @@
                 p #[span.text-bold.lista-naranja--vineta  >]  &nbspSolicitar prueba de la autorización, cuando ella sea requerida conforme lo previsto en la presente ley.
 
     .row.justify-content-center.mt-5
-     .col-sm-10.p-3
+     .col-lg-8.p-3
       .cajon.color-primario.tarjeta-naranja.p-4
-        p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal donde encontrará la síntesis, material complementario, entre otros. Adicional, lo invitamos a resolver la actividad didáctica para reforzar los conceptos estudiados.
+        p.mb-0 Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo; para ello, diríjase al menú principal donde encontrará la síntesis, material complementario, entre otros. Adicional, lo invitamos a resolver la actividad didáctica para reforzar los conceptos estudiados.
 
                      
 </template>

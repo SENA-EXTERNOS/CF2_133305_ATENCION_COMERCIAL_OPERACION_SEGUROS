@@ -111,8 +111,7 @@
   background-color: #F67409 !important
 
 .tabs-a__tab__text
-   font-size: 13px !important
-   font-weight: bold  !important
+  font-weight: bold  !important
 
 .color-verde-contenido-tab
     background-color: #E5F2DB !important  
@@ -123,22 +122,11 @@
 
 
 .bg5
-  background-image: url('../assets/curso/temas/tema1/fondoSlider1.png')    
+  background-image: url('../assets/curso/temas/tema1/1.jpg')    
   background-repeat: no-repeat
   background-size: 100% 100%
   background-position: center 
   border-radius: 10px !important  
-
-
-.bg6
-  background-image: url('../assets/curso/temas/tema1/fondo2.png')    
-  background-repeat: no-repeat
-  background-size: 100% 100%
-  background-position: center 
-  border-radius: 10px !important 
-@media (max-width:500px)  
-    .bg6 
-      background-image: url('')     
 
 
 .mg-img
@@ -152,14 +140,40 @@
 .color-yellow-recuadro
    background-color: #FECE10
 
+.banner-principal__img
+  width: 400px !important    
+.img-a 
+  display: block
+  margin: auto
 
-.transparencia-cuadro 
-  opacity: 0.7
-  margin-bottom: 200px !important  
-
+.img-t
+  width: auto
+  height: auto
 
 .bloque-texto-b.color-primario:before
    background-color: #FDDCC0 !important 
      
 .slider-tamano-tem1
    height: 450px !important
+
+.bg17
+  position: relative
+  .row, figure, p, h3, h4, .titulo-sexto.color-primario
+    position: relative
+  &::before
+    content: ""
+    position: absolute
+    margin-left: -48px
+    margin-top: 0
+    width: calc( 100% + 96px )
+    height: 100%       
+    background-image: url('../assets/curso/temas/tema1/2.png')
+    background-size: 100% auto  
+    background-repeat: no-repeat
+    background-position: center top     
+
+.bloque-fondo1
+  background-image: url(../assets/curso/temas/tema1/3.jpg)
+  background-repeat: no-repeat
+  background-size: contain
+  background-position: bottom     

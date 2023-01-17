@@ -16,15 +16,14 @@
       .col-lg-8.mb-5.mb-lg-0
         .bloque-texto-b.color-primario.p-4
           .bloque-texto-b__texto
-            p Apreciado aprendiz, bienvenido a este componente formativo donde se abordará temas como la gestión, matemática financiera, contabilidad, análisis financiero y centrales de riesgo, herramientas situadas en el mercado e indispensables para el normal funcionamiento de una entidad u organización, porque son instrumentos que hacen parte de las operaciones normales; de aquí deriva la importancia de conocer y manejar los estados financieros, para fortalecer en gran medida las habilidades en atención comercial y operación en seguros.      
-
+            p Apreciado aprendiz, bienvenido a este componente formativo donde se abordarán temas como la gestión de la información, matemática financiera, contabilidad, análisis financiero y centrales de riesgo; herramientas indispensables para el normal funcionamiento de una organización, debido a que son instrumentos que hacen parte de las operaciones normales de una empresa; de aquí proviene la importancia de conocer y manejar los estados financieros, para fortalecer, en gran medida, las habilidades en la atención comercial y la operación en seguros.
     
     .col-sm-8.mb-3
-      p.mt-5 En el siguiente video conocerá, de forma general, la temática que se estudiará en el presente recurso educativo. ¡Éxitos en este proceso de aprendizaje!
+      p.mt-5 En el siguiente video conocerá, de forma general, la temática que se estudiará en el presente recurso educativo.
     figure
      .video
        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-       figcaption Video: Leyenda del video      
+             
 
 </template>
 

@@ -1,7 +1,7 @@
 <template lang="pug">
 .curso-main-container.pb-3
   BannerInterno
-  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5.bloque-fondo1
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 2
@@ -12,8 +12,7 @@
         figure
           img(src="@/assets/curso/temas/tema2/img19.png", alt="alt")    
       .col-lg-8.p-3
-        p La contabilidad es una disciplina donde podemos registrar los movimientos contables y financieros de un ente económico. Por medio de ella, podemos obtener información basada en hechos reales de una empresa o negocio que se presentan durante un periodo que es igual a un año, donde se recopila información para la toma de decisiones. Debido a que esta información es confidencial de una organización o empresa, es necesario gestionarla y almacenarla en bases de datos para su manejo y protección.
-      
+        p La contabilidad es una disciplina donde podemos registrar los movimientos contables y financieros de un ente económico. Por medio de ella, podemos obtener información, basada en hechos reales, de una empresa o negocio que se presenta durante un periodo que es igual a un año, donde se recopila información para la toma de decisiones. Debido a que esta información de una organización o empresa es confidencial, se hace necesario gestionarla y almacenarla en bases de datos, para su manejo y protección.      
 
     h5.mt-5.mb-3 Gestión de la información
     .row.justify-content-center
@@ -36,7 +35,7 @@
 
     p.mt-5 A continuación, se presentan las diferentes clases de bases de datos:
     
-    .row
+    .row.text-center
       .col-sm-2.col-lg-3.mb-4.mb-lg-0
         .tarjeta--boton.tarjeta-slide.arriba.color-secundario.p-4(@mouseover="indicadorTarjetaSlide=false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
@@ -53,7 +52,7 @@
           .row.justify-content-center
            .tarjeta-slide__contenedor
              .tarjeta-slide__contenido          
-               p Son aquellas bases de datos que aparte de la consulta, se puede modificar actualizando la información que se encuentra en ella. Según su contenido, la podemos identificar. 
+               p Es aquella base de datos que, además de la consulta, se puede modificar, actualizando la información que se encuentra en ella. Según su contenido, la podemos identificar.
              .img-fluid             
                 .tarjeta-slide__img(:style="{'background-color': '#E5F2DB','background-image': `url(${require('@/assets/curso/temas/tema2/tj2.png')})`}")                 
 
@@ -83,7 +82,7 @@
         figure
           img(src="@/assets/curso/temas/tema2/img2.png", alt="alt")
       .col-lg-8.p-3
-        p El objetivo de la contabilidad es mejorar el tratamiento de los recursos financieros de una empresa. Por otra parte, podemos encontrar en el decreto 2649 de 1993 el concepto de contabilidad: “la contabilidad permite identificar, medir, clasificar, registrar, interpretar, evaluar, e informar las operaciones de un ente económico, de forma clara completa y fidedigna”; podemos deducir que es una ciencia y un arte de las transacciones financieras registradas por una empresa, basada en la razón del objeto social y ubicando al ente para la obtención de informes financieros. La contabilidad se basa en la ecuación patrimonial que es: activo = pasivo + patrimonio.
+        p El objetivo de la contabilidad es el de mejorar el tratamiento de los recursos financieros de una empresa. Por otra parte, podemos encontrar en el decreto 2649 de 1993, el concepto de contabilidad: “la contabilidad permite identificar, medir, clasificar, registrar, interpretar, evaluar, e informar las operaciones de un ente económico, de forma clara completa y fidedigna”; podemos deducir que es una ciencia y un arte de las transacciones financieras registradas por una empresa, basada en la razón del objeto social y ubicando al ente para la obtención de informes financieros. La contabilidad se basa en la ecuación patrimonial: activo = pasivo + patrimonio.
 
     .row.justify-content-center
       .col-md-8
@@ -201,23 +200,23 @@
         .row.justify-content-center
           .col-sm-6  
             figure 
-              img(src='@/assets/curso/temas/tema2/img6.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img6.png', alt='')
       .tarjeta(x="28%" y="40%" numero="+")
         figure 
-          img(src='@/assets/curso/temas/tema2/tjd1.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema2/tjd1.png', alt='')
 
       .tarjeta(x="72%" y="25%" numero="+")
         figure 
-          img(src='@/assets/curso/temas/tema2/tjd2.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema2/tjd2.png', alt='')
 
       .tarjeta(x="72%" y="60%" numero="+")
         figure 
-          img(src='@/assets/curso/temas/tema2/tjd3.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema2/tjd3.png', alt='')
 
     <Separador></Separador>
 
     #t_2_1.titulo-segundo.color-acento-contenido.mt-5
-       h2 2.1  Normas internacionales
+       h2 2.1 Normas internacionales
     
     .row.justify-content-center
       .col-md-10
@@ -227,11 +226,7 @@
     .row.justify-content-center.mt-5
       .col-md-10
         .cajon.color-primario.tarjeta-naranja.p-4  
-           p Existen dos grandes normas a nivel internacional: las 
-            span.text-bold  Normas Internacionales de Información Financiera (NIIF) 
-            |- International Financial Reporting Standards (IFRS) y las 
-            span.text-bold Normas Internacionales de Contabilidad (NIC) 
-            |– International Accounting Standards (IAS). Las NIIF están conformadas desde la norma 1, hasta la norma 13 y las NIC comprenden desde la norma 1, hasta la norma 41.
+           p.mb-0 Existen dos grandes normas a nivel internacional: <b>las Normas Internacionales de Información Financiera (NIIF)</b> – International Financial Reporting Standards (IFRS) y las <b>Normas Internacionales de Contabilidad (NIC)</b> – <i>International Accounting Standards</i> (IAS). Las NIIF están conformadas desde la norma 1, hasta la norma 13 y las NIC comprenden desde la norma 1, hasta la norma 41.
 
     p.mt-5 A continuación, se profundiza un poco más sobre las normas internacionales:
 
@@ -241,7 +236,7 @@
           .row(numero="1" titulo="NIIF – Normas Internacionales de Información Financiera")
             .col-md-12.mb-8.mb-md-0
               p Las NIIF forman parte de unos estándares contables universales fundados para agrupar o unificar la información financiera, presentada por el sector empresarial, para beneficiar la ejecución de negocios nacionales e internacionales.
-              p De acuerdo con lo anterior, para poseer unos estándares contables universales y simplificar la ejecución de negocios, la International Accounting Standards Board, más conocida como IASB, fundó las Normas Internacionales de Información Financiera (NIIF). En el caso de Colombia, estas normas internacionales de contabilidad fueron acogidas hasta el año 2009, con la expedición de la Ley 1314 del mismo año y donde estas normas se comenzaron a implementar en el año 2014.
+              p De acuerdo con lo anterior, para poseer unos estándares contables universales y simplificar la ejecución de negocios, la <i>International Accounting Standards Board</i>, más conocida como IASB, fundó las Normas Internacionales de Información Financiera (NIIF). En el caso de Colombia, estas normas internacionales de contabilidad fueron acogidas hasta el año 2009, con la expedición de la Ley 1314 del mismo año y donde estas normas se comenzaron a implementar en el año 2014.
 
           .row(numero="2" titulo="NIC – Normas Internacionales de Contabilidad")
             .col-md-12.mb-8.mb-md-0
@@ -261,36 +256,39 @@
         .row.justify-content-center
           .col-sm-6  
             figure 
-              img(src='@/assets/curso/temas/tema2/img9.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema2/img9.png', alt='')
       .tarjeta(x="48%" y="20%")
         figure 
-          img(src='@/assets/curso/temas/tema2/tjd4.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema2/tjd4.png', alt='')
 
       .tarjeta(x="35%" y="65%" )
         figure 
-          img(src='@/assets/curso/temas/tema2/tjd5.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema2/tjd6.png', alt='')
 
       .tarjeta(x="62%" y="60%" )
         figure 
-          img(src='@/assets/curso/temas/tema2/tjd6.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema2/tjd5.png', alt='')
 
-    .tarjeta.color-secundario.p-3.mt-5
-      .row.justify-content-md-center
-        .col-lg-1
-            img(src="@/assets/curso/temas/tema2/img10.png")
-        .col-md-auto
-            h3.mt-3 CINIIF, NIIF y NIC
-             p.text-small Para ampliar la información, lo invitamos a leer el documento  
-        .col-lg-2.mt-3
-            a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/ANEXO CINIF aplicadas a los grupos.pdf')" target="_blank")
-              span Descargar
-              i.fas.fa-file-download 
-
+    .row.justify-content-center.align-items-center.mb-5           
+      .col-lg-10
+        .tarjeta.color-secundario.p-3
+          .row.justify-content-around.align-items-center
+            .col-3.col-sm-2.col-lg-1
+              img(src="@/assets/curso/temas/tema2/img10.png")
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h3 CINIIF, NIIF y NIC
+                  p.mb-0 Para ampliar la información, lo invitamos a leer el documento  
+                .col-sm-auto
+                  a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/ANEXO_CINIF_aplicadas_a_los_grupos.pdf')" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download   
     
     <Separador></Separador>
 
     #t_2_2.titulo-segundo.color-acento-contenido.mt-5
-       h2 2.2  Estado de resultados 
+       h2 2.2 Estado de resultados 
 
     p.mt-5 Es un estado financiero de propósito general, que busca analizar la información obtenida durante un periodo, para proceder a la toma de decisiones en cuanto a la parte financiera de una empresa, relativa a los logros alcanzados por la administración de la entidad.
     p.mt-5 A continuación, se entrará con más detalle sobre el Estado de resultados:
@@ -302,7 +300,7 @@
 
 
     TabsA.color-primario.mt-5
-      .tarjeta.color-primario--borde.color-contenido.p-4(class="small-text" titulo="Composición de un estado de resultados")
+      .tarjeta.color-primario--borde.color-contenido.p-4(titulo="Composición de un estado<br> de resultados")
         .row.justify-content-center
           .col-md-2.mt-2
             figure
@@ -316,7 +314,7 @@
              span.text-bold Gastos y costos: 
              |son decrementos de los activos, o incrementos de los pasivos de una entidad durante un periodo contable, con la intención de generar ingresos, y con un impacto desfavorable en la utilidad o pérdida neta.
               
-      .tarjeta.color-primario--borde.color-contenido.p-4(titulo="¿Cómo se utiliza un estado de resultados?")
+      .tarjeta.color-primario--borde.color-contenido.p-4(titulo="¿Cómo se utiliza un estado<br> de resultados?")
         .row.justify-content-center
           .col-md-2.mt-2
             figure
@@ -325,7 +323,7 @@
             h4 ¿Cómo se utiliza un estado de resultados?
             p Se deriva de un balance de los ingresos, gastos y costos, que busca obtener los niveles de utilidad operativa de la empresa, durante un periodo. 
              
-      .tarjeta.color-primario--borde.color-contenido.p-4(titulo="Partes de un estado de resultados")
+      .tarjeta.color-primario--borde.color-contenido.p-4(titulo="Partes de un estado<br> de resultados")
         .row.justify-content-center
           .col-md-2.mt-2
             figure
@@ -357,19 +355,24 @@
               li 
                 .color-lista-verde--vineta
                   span.text-bold >
-                | &nbspEvaluar el desempeño
+                | &nbspEvaluar el desempeño.
               li 
                 .color-lista-verde--vineta
                   span.text-bold > 
-                | &nbspEstimar sus flujos de efectivo 
+                | &nbspEstimar el potencial de crédito de las empresas.
               li 
                 .color-lista-verde--vineta
                   span.text-bold > 
-                | &nbspTener una base para determinar los dividendos.
+                | &nbspEstimar sus flujos de efectivo.
               li 
                 .color-lista-verde--vineta
                   span.text-bold > 
-                | &nbspLos ingresos de actividades ordinarias: es la entrada bruta que le ingresa a la empresa por los beneficios económicos.                
+                | &nbspTener una base para determinar los dividendos.              
+              li 
+                .color-lista-verde--vineta
+                  span.text-bold > 
+                | &nbspLos ingresos de actividades ordinarias: es la entrada bruta que le ingresa a la empresa por los beneficios económicos.
+
               li 
                 .color-lista-verde--vineta
                   span.text-bold > 
@@ -378,47 +381,48 @@
               li 
                 .color-lista-verde--vineta
                   span.text-bold > 
-                | &nbspLa ganancia bruta: es el total de las sumas percibidas en cada periodo mensual.  
+                | &nbspLa ganancia bruta: es el total de las sumas percibidas en cada periodo mensual.                                   
 
               li 
                 .color-lista-verde--vineta
                   span.text-bold > 
-                | &nbspOtros ingresos: son los ingresos de actividades que no tienen origen                                   
+                | &nbspOtros ingresos: son los ingresos de actividades que no tienen origen.
 
               li 
                 .color-lista-verde--vineta
                   span.text-bold > 
-                | &nbspGastos de administración: son los gastos operacionales que se miden a nivel de la empresa y a nivel administrativo.  
+                | &nbspGastos de administración: son los gastos operacionales que se miden a nivel de la empresa y a nivel administrativo.
 
               li 
                 .color-lista-verde--vineta
                   span.text-bold > 
-                | &nbspOtros gastos: se derivan de operaciones o transacciones inusuales que no son propias de la empresa. 
+                | &nbspOtros gastos: se derivan de operaciones o transacciones inusuales que no son propias de la empresa.
 
               li 
                 .color-lista-verde--vineta
                   span.text-bold > 
-                | &nbspGanancia o pérdida antes de impuesto: son actividades que constituyen la principal fuente de ingresos.
+                | &nbspGanancia o pérdida antes de impuesto: son actividades que constituyen la principal fuente de ingresos.  
 
               li 
                 .color-lista-verde--vineta
                   span.text-bold > 
-                | &nbspGanancias por impuestos: se incluyen al determinar la ganancia o pérdida en cualquier periodo.    
+                | &nbspGanancias por impuestos: se incluyen al determinar la ganancia o pérdida en cualquier periodo.
 
               li 
                 .color-lista-verde--vineta
                   span.text-bold > 
-                | &nbspGanancia procedente de operaciones continuadas: es el resultado antes de impuestos, sobre los beneficios económicos.
+                | &nbspGanancia procedente de operaciones continuadas: es el resultado antes de impuestos, sobre los beneficios económicos.                                                                        
 
               li 
                 .color-lista-verde--vineta
                   span.text-bold > 
-                | &nbspVariación absoluta: expresa qué cantidad representa de un año a otro.                                                                             
+                | &nbspVariación absoluta: expresa qué cantidad representa de un año a otro. 
 
               li 
                 .color-lista-verde--vineta
                   span.text-bold > 
-                | &nbspVariación relativa: representa el mismo valor, pero en porcentaje.  
+                | &nbspVariación relativa: representa el mismo valor, pero en porcentaje.
+
 
     h5.mt-5 NIIF 9 – Instrumentos Financieros
       .row.justify-content-center
@@ -434,38 +438,35 @@
            
     <Separador></Separador>           
     #t_2_3.titulo-segundo.color-acento-contenido.mt-5
-      h2 2.3  Registros contables
+      h2 2.3 Registros contables
 
     .row
       .col-md-4
         figure
-          img(src="@/assets/curso/temas/tema2/img12.png", alt="alt")
+          img.pb-5(src="@/assets/curso/temas/tema2/img12.png", alt="alt")
       .col-md-8
         p Toda empresa, desde que inicia las actividades financieras y contables y durante su actividad financiera económica, debe tener un registro que son los libros o documentos físicos donde se registran todas las operaciones dentro de la entidad y se reflejan los asientos contables de la empresa.
-        p Continuando con este tema, se exponen unas plantillas modelos de cómo se deben diligenciar los registros contables.    
+        p.mb-5 Continuando con este tema, se exponen unas plantillas modelos de cómo se deben diligenciar los registros contables.    
 
-      SlyderA(tipo="b").color-primario.bg5
-        .row        
-          .col-md-6.p-4.mt-5
+      SlyderA(tipo="b").color-primario.bg5.p-5
+        .row.justify-content-center.align-items-start        
+          .col-lg-5.col-md-12
             h5 Registro simple
             p Es el asiento contable que se realiza de una forma práctica y resumida de las cuentas.
-          .col-md-6.p-5                
-                figure
-                  img(src='@/assets/curso/temas/tema2/sld1.png', alt='alt')
-        .row   
-          .col-md-6.p-4.mt-5
+          .col-lg-6.col-md-12                
+            img.img-a.img-t(src='@/assets/curso/temas/tema2/sld1.png', alt='alt')
+        .row.justify-content-center.align-items-start   
+          .col-lg-5.col-md-12
             h5 Registro compuesto
             p Es el asiento contable que se realiza de una forma detallada y extensa con subcuentas, para tener claridad suficiente en el asiento contable. 
-          .col-md-6.p-5      
-                figure
-                  img(src='@/assets/curso/temas/tema2/sld2.png', alt='alt')
-        .row 
-          .col-md-6.p-4.mt-5
+          .col-lg-6.col-md-12      
+            img.img-a.img-t(src='@/assets/curso/temas/tema2/sld2.png', alt='alt')
+        .row.justify-content-center.align-items-start 
+          .col-lg-5.col-md-12
             h5 Cuenta T
-            p Esta herramienta sirve para liquidar las cuentas para poder colocar este resultado, ya sea en libro mayor y balance o en los informes donde se necesite la información.
-          .col-md-6.p-5
-                figure
-                  img(src='@/assets/curso/temas/tema2/sld3.png', alt='alt')
+            p Esta herramienta sirve para liquidar las cuentas y poder colocar este resultado, ya sea en el libro mayor y el balance, o en los informes donde se necesite la información.
+          .col-lg-6.col-md-12
+            img.img-a.img-t(src='@/assets/curso/temas/tema2/sld3.png', alt='alt')
 
 
     h5.mt-5 ¿Cómo elaborar un registro contable?
@@ -476,12 +477,12 @@
      | la empresa adquiere un local por valor de $100.000.000 en efectivo.
 
 
-    .row.justify-content-center.mt-5.bg6.mg-img
+    .row.justify-content-center.mt-5.bg6.mg-img.pt-5
       .col-md-7
         LineaTiempoD(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(numero="1" titulo="Paso 1")
             .col-md-12.mb-8.mb-md-0
-              p Identificar las que se está desarrollando. Observar el local y el efectivo entregado por la empresa; ambos son activos, uno representado en un local y el otro como salida de efectivo.
+              p Identificar la transacción que se está desarrollando. Observar el local y el efectivo entregado por la empresa; ambos son activos, uno representado en un local y el otro como salida de efectivo.
                .row.justify-content-center
                  .col-sm-8
                    figure
@@ -504,10 +505,10 @@
         figure
           img(src="@/assets/curso/temas/tema2/img14.png", alt="alt")
 
-      .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-5.pt-5
       .col-sm-10.p-3
         .cajon.color-primario.tarjeta-naranja.transparencia-cuadro.p-4
-          p Los libros auxiliares son documentos que permiten llevar el movimiento contable de cada cuenta a nivel auxiliar de la empresa y tienen como fin mostrar el detalle de cada una de estas, para que faciliten el control de los recursos de la empresa, sobre todo aquellas que tienen bastante movimiento como son: efectivo, bancos, clientes, proveedores, IVA, ventas, entre otras.
+          p.mb-0 Los libros auxiliares son documentos que permiten llevar el movimiento contable de cada cuenta a nivel auxiliar de la empresa y tienen como fin mostrar el detalle de cada una de estas, para que faciliten el control de los recursos de la empresa, sobre todo aquellas que tienen bastante movimiento como son: efectivo, bancos, clientes, proveedores, IVA, ventas, entre otras.
 
 
 </template>

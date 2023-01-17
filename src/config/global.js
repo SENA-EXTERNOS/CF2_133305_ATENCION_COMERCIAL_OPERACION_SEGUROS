@@ -34,7 +34,7 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Matemáticas financiera',
+        titulo: 'Matemática financiera',
         desarrolloContenidos: true,
       },
 
@@ -122,15 +122,15 @@ export default {
   },
   complementario: [
     {
-      tema: 'Contabilidad básica',
+      tema: 'Gestión de la información y contabilidad básica',
       referencia:
-        'Decreto 2649 de 1993. Por el cual se reglamenta la Contabilidad en General y se expiden los principios o normas de contabilidad generalmente aceptados en Colombia. Diciembre 29 de 1993. ',
+        'Decreto 2649 de 1993. Por el cual se reglamenta la Contabilidad en General y se expiden los principios o normas de contabilidad generalmente aceptados en Colombia. Diciembre 29 de 1993.',
       tipo: 'Decreto',
       link:
         'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=9863',
     },
     {
-      tema: 'Contabilidad básica',
+      tema: 'Gestión de la información y contabilidad básica',
       referencia:
         'Ley 1314 de 2009. Por la cual se regulan los principios y normas de contabilidad e información financiera y de aseguramiento de información aceptados en Colombia, se señalan las autoridades competentes, el procedimiento para su expedición y se determinan las entidades responsables de vigilar su cumplimiento. Julio 13 de 2009. DO. No. 47.409',
       tipo: 'Ley',
@@ -140,14 +140,14 @@ export default {
     {
       tema: 'Registros contables',
       referencia:
-        'Decreto 2650 de 1993. (Instituto Nacional de Contadores Públicos). Por el cual se modifica el Plan Único de Cuentas para Comerciantes. Diciembre 29 de 1993. ',
+        'Decreto 2650 de 1993. (Instituto Nacional de Contadores Públicos). Por el cual se modifica el Plan Único de Cuentas para Comerciantes. Diciembre 29 de 1993.',
       tipo: 'Decreto',
       link: 'https://incp.org.co/Site/2012/legislativa/2650.pdf',
     },
     {
       tema: 'Estados financieros',
       referencia:
-        'Superintendencia Financiera de Colombia. (1995). Circular básica contable y financiera. ',
+        'Superintendencia Financiera de Colombia. (1995).<i> Circular básica contable y financiera</i>.',
       tipo: 'Circular',
       link: 'https://www.superfinanciera.gov.co/jsp/15466',
     },
@@ -212,24 +212,25 @@ export default {
         'https://normativa.colpensiones.gov.co/colpens/docs/estatuto_organico_sistema_financiero.htm',
     },
     {
-      referencia: 'SIC. (s.f.). Sobre el Habeas Data Financiero. SIC.',
+      referencia: 'SIC. (s.f.). <i>Sobre el Habeas Data Financiero</i>. SIC.',
       link: 'https://www.sic.gov.co/sobre-el-habeas-data-financiero',
     },
     {
       referencia:
-        'Superintendencia Financiera de Colombia. (s.f.). Circular Básica Jurídica (C.E. 029/14)',
+        'Superintendencia Financiera de Colombia. (s.f.). <i>Circular Básica Jurídica (C.E. 029/14).</i>',
       link:
         'https://www.superfinanciera.gov.co/jsp/loader.jsf?lServicio=Publicaciones&lTipo=publicaciones&lFuncion=loadContenidoPublicacion&id=10083443',
     },
     {
       referencia:
-        'Superintendencia Financiera de Colombia. (1995). Circular básica contable y financiera.',
+        'Superintendencia Financiera de Colombia. (1995). <i>Circular básica contable y financiera.</i>',
       link: 'https://www.superfinanciera.gov.co/jsp/15466',
     },
     {
-      referencia: 'Supersociedades. (s.f.). Superintendencia de Sociedades.',
+      referencia:
+        '<i>Supersociedades. (s.f.). Superintendencia de Sociedades</i>.',
       link:
-        'https://www.supersociedades.gov.co/nuestra_entidad/normatividad/normatividad_conceptos_juridicos/3040.pdf ',
+        'https://www.supersociedades.gov.co/documents/20122/2699197/BoletinJuridico10-Octubre2022.pdf/75139917-7829-a57a-f3eb-843bd8ce41b6?t=1670273980109',
     },
   ],
   creditos: {

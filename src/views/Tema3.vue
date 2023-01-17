@@ -10,23 +10,21 @@
     .row
       .col-md-8
         .col-sm-10 
-          p Una empresa está conformada por una estructura financiera y una estructura operacional. La primera, está conformada por los activos, los pasivos y el patrimonio, y la segunda está conformada por los ingresos, los gastos y los costos de la empresa. A continuación, se desarrolla un
-           span.text-bold  estado de situación financiera 
-           | y un 
-           span.text-bold estado de resultado integral 
-           |de una empresa. 
-          .tarjeta.color-secundario.p-2.mt-2
-            .row.justify-content-md-center
-              .col-md-2.mt-3
-                  img(src="@/assets/curso/temas/tema3/img1.png")
-              .col-md-6
-                  h3.mt-3 Estados financieros
-                  p.text-small Para ampliar la información anterior, lo invitamos a leer el documento. 
-              .col-lg-3.mt-3
-                a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/ANEXO estados financieros.pdf')" target="_blank")
-                 span Descargar
-                  i.fas.fa-file-download      
-                                        
+          p Una empresa está conformada por una estructura financiera y una estructura operacional. La primera, está conformada por los activos, los pasivos y el patrimonio, y la segunda, está conformada por los ingresos, los gastos y los costos de la empresa. A continuación, se desarrolla un <b>Estado de Situación Financiera</b> de una empresa.
+
+          .tarjeta.color-secundario.p-3
+            .row.justify-content-around.align-items-center
+              .col-3.col-sm-2.col-lg-2
+                img(src="@/assets/curso/temas/tema3/img1.png")
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    h4.mb-0 Estados financieros 
+                  .col-sm-auto
+                    a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/ANEXO_estados_financieros.pdf')" target="_blank")
+                      span Descargar
+                      i.fas.fa-file-download                
+
       .col-md-4
         figure
           img(src="@/assets/curso/temas/tema3/img2.png", alt="alt")
@@ -35,12 +33,12 @@
 
     h5.mt-5 Análisis de los estados financieros
 
-    p.mt-5 Es importante que los propietarios de empresas tengan ordenados y actualizados los estados financieros de la entidad, porque de esta manera se permite conocer los niveles de rentabilidad de su inversión, observar el crecimiento de la empresa, conocer la liquidez y la capacidad de pago de la organización, conceder préstamos o apalancamiento económico y, finalmente, tomar decisiones que beneficien a la empresa.
+    p.mt-5 Es importante que los propietarios y directivas de las empresas, tengan ordenados y actualizados los estados financieros de la entidad porque, de esta manera, se permite saber los niveles de rentabilidad de su inversión, observar el crecimiento de la empresa, conocer la liquidez y la capacidad de pago de la organización, conceder préstamos o apalancamiento económico y, finalmente, tomar decisiones que beneficien a la empresa.
     p.mt-5.mb-5 Para profundizar sobre el análisis de los estados financieros, lo invitamos a ver el siguiente video.
     figure
      .video
        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-       figcaption Video: Leyenda del video      
+             
 
     .row.justify-content-center.mt-5
      .col-sm-10.p-3
@@ -59,7 +57,7 @@
               .row.justify-content-center
                 .col-md-4
                   figura
-                    img(src='@/assets/curso/temas/tema3/formula1.png', alt='alt')
+                    img(src='@/assets/curso/temas/tema3/1.svg', alt='alt')
 
         .py-3.py-md-4(titulo="Análisis horizontal")
           .row
@@ -107,10 +105,10 @@
           .row.justify-content-center
            .col-sm-8
               figure
-                img(src='@/assets/curso/temas/tema3/img5.png', alt='')
+                img.my-5(src='@/assets/curso/temas/tema3/2.svg', alt='')
 
               figure
-                img(src='@/assets/curso/temas/tema3/formula3.png', alt='')
+                img(src='@/assets/curso/temas/tema3/3.svg', alt='')
 
       div(titulo="Razón ácida")
         .col-12.mb-md-0.p-5
@@ -118,18 +116,19 @@
           h5 Interpretación
 
           p La empresa cuenta con $(resultado de la ecuación) para responder por cada peso que debe a corto tiempo.
-          p.mt-3  No se puede precisar cuál es el valor ideal para este indicador; el más adecuado podría acercarse a 1, aunque es admisible por debajo de este nivel. Existe una gran diferencia, por razones obvias, entre lo que debe ser la prueba ácida para una empresa industrial, por ejemplo, que para una empresa comercial, pues de acuerdo con su actividad, las cantidades de inventario que manejan son distintas, teniendo esta cuenta diferente influencia en la valoración de la liquidez
+          p.mt-3  No se puede precisar cuál es el valor ideal para este indicador; el más adecuado podría acercarse a 1, aunque es admisible por debajo de este nivel. Existe una gran diferencia, por razones obvias, entre lo que debe ser la prueba ácida para una empresa industrial, por ejemplo, que para una empresa comercial, pues de acuerdo con su actividad, las cantidades de inventario que manejan son distintas, teniendo esta cuenta diferente influencia en la valoración de la liquidez.
           .row.justify-content-center
            .col-sm-8
               figure
-                img(src='@/assets/curso/temas/tema3/formula4.png', alt='')
+                img(src='@/assets/curso/temas/tema3/4.svg', alt='')
 
-      div(titulo="Capital de trabajo neto ")
+      div(titulo="Capital de trabajo neto")
         .col-12.mb-md-0.p-5
-          p Valor que le queda a la empresa, después de haber pagado sus pasivos de corto plazo, permitiendo la toma de decisiones importantes para la empresa
+          p Valor que le queda a la empresa, después de haber pagado sus pasivos de corto plazo, permitiendo la toma de decisiones importantes para la misma.
+
           h5 Interpretación
 
-          p.mt-3  La empresa cuenta con un capital neto de trabajo (resultado de la ecuación) el cual le permite pagar sus gastos operativos anuales, una vez cubiertos los valores de las obligaciones a corto plazo
+          p.mt-3  La empresa cuenta con un capital neto de trabajo (resultado de la ecuación) el cual le permite pagar sus gastos operativos anuales, una vez cubiertos los valores de las obligaciones a corto plazo.
           .row.justify-content-center
            .col-sm-8
               figure
@@ -143,18 +142,18 @@
               figure
                 img(src='@/assets/curso/temas/tema3/img6.png', alt='')
 
-      div(titulo="Razón de deuda ")
+      div(titulo="Razón de deuda")
         .col-12.mb-md-0.p-5
           p Establece el porcentaje de participación de los acreedores, con relación a la financiación de los activos de la organización.
           h5 Interpretación
 
-          p.mt-3  Indica a qué (resultado de ecuación) % de los activos de la organización tienen derecho los acreedores al ser financiados por ellos; si el indicador es bajo, le permite acceso a más crédito.
+          p.mt-3 Indica a qué (resultado de ecuación) % de los activos de la organización, tienen derecho los acreedores al ser financiada por ellos; si el indicador es bajo, le permite acceso a más crédito.
           .row.justify-content-center
            .col-sm-8
               figure
-                img(src='@/assets/curso/temas/tema3/formula6.png', alt='')
+                img(src='@/assets/curso/temas/tema3/5.svg', alt='')
 
-      div(titulo="Endeudamiento financiero ")
+      div(titulo="Endeudamiento financiero")
         .col-12.mb-md-0.p-5
           p Este indicador representa las obligaciones financieras con respecto a las ventas. Un indicador recomendable menor al 10 %.
           h5 Interpretación
@@ -163,9 +162,9 @@
           .row.justify-content-center
            .col-sm-8
               figure
-                img(src='@/assets/curso/temas/tema3/formula7.png', alt='')
+                img(src='@/assets/curso/temas/tema3/6.svg', alt='')
 
-      div(titulo="Impacto de la carga financiera ")
+      div(titulo="Impacto de la carga financiera")
         .col-12.mb-md-0.p-5
           p Es el porcentaje de los gastos financieros con respecto a las ventas del periodo.
           h5 Interpretación
@@ -174,9 +173,9 @@
           .row.justify-content-center
            .col-sm-8
               figure
-                img(src='@/assets/curso/temas/tema3/formula8.png', alt='')
+                img(src='@/assets/curso/temas/tema3/7.svg', alt='')
 
-      div(titulo="Indicadores de apalancamiento ")
+      div(titulo="Indicadores de apalancamiento")
         .col-12.mb-md-0.p-5
           p Mide el grado de compromiso del patrimonio de los socios para con los acreedores de la empresa. Busca el equilibrio de propietarios con recursos de terceros. 
           h5 Interpretación
@@ -185,7 +184,7 @@
           .row.justify-content-center
            .col-sm-8
               figure
-                img(src='@/assets/curso/temas/tema3/formula9.png', alt='')
+                img(src='@/assets/curso/temas/tema3/8.svg', alt='')
 </template>
 
 <script>
