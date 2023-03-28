@@ -37,7 +37,7 @@
     p.mt-5.mb-5 Para profundizar sobre el análisis de los estados financieros, lo invitamos a ver el siguiente video.
     figure
      .video
-       iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+       iframe(width="560" height="315" src="https://www.youtube.com/embed/5AATV8DbKL8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
              
 
     .row.justify-content-center.mt-5
