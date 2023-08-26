@@ -117,8 +117,6 @@
         .col-12.mb-md-0.p-5
           p Modalidad en el cobro de los intereses: se cobran por periodo anticipado, es decir, intereses que se descuentan al inicio de cada periodo y otros por periodo vencido, que son los que se cobran al final de cada periodo. 
           p Por lo anterior, es común escuchar expresiones como 20 % nominal anual capitalizable trimestralmente, 7 % trimestral, 7 % trimestral anticipado, 24 % nominal trimestre anticipado y 25 % efectivo anual. 
-
-          p.mt-3 Por lo anterior, es común escuchar expresiones como 20 % nominal anual capitalizable trimestralmente, 7 % trimestral, 7 % trimestral anticipado, 24 % nominal trimestre anticipado y 25 % efectivo anual.
           
           h5 Fórmula:
           .row.justify-content-center
@@ -322,13 +320,13 @@
     .row.justify-content-center
       .col-md-10
         .tarjeta.color-secundario.p-3.mt-5
-          .row.justify-content-md-center
+          .row.justify-content-center.align-items-center
             .col-lg-1
                 img(src="@/assets/curso/temas/tema1/img2.png")
-            .col-md-auto
+            .col-lg
                 h3.mt-3 Ejercicios de aplicación matemática financiera
-                p.text-small Para poner en práctica todos estos conocimientos, lo invitamos a solucionar los ejercicios propuestos en el documento.  
-            .col-lg-2.mt-3
+                p Para poner en práctica todos estos conocimientos, lo invitamos a solucionar los ejercicios propuestos en el documento.  
+            .col-lg-2
                 a.boton.color-acento-botones.text-white(:href="obtenerLink('/downloads/Ejercicios_aplicación_matemática_financiera.pdf')" target="_blank")
                   span Descargar
                   i.fas.fa-file-download      

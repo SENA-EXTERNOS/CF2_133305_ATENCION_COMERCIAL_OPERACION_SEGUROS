@@ -85,17 +85,39 @@
         p El objetivo de la contabilidad es el de mejorar el tratamiento de los recursos financieros de una empresa. Por otra parte, podemos encontrar en el decreto 2649 de 1993, el concepto de contabilidad: “la contabilidad permite identificar, medir, clasificar, registrar, interpretar, evaluar, e informar las operaciones de un ente económico, de forma clara completa y fidedigna”; podemos deducir que es una ciencia y un arte de las transacciones financieras registradas por una empresa, basada en la razón del objeto social y ubicando al ente para la obtención de informes financieros. La contabilidad se basa en la ecuación patrimonial: activo = pasivo + patrimonio.
 
     .row.justify-content-center
-      .col-md-8
-        figure
-          img(src="@/assets/curso/temas/tema2/img3.png", alt="alt")
-
+      .col-md-11
+        .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
+          .bloque-texto-g__img.ih(
+            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/1.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 El artículo 1º del Decreto 2649 de 1993, expresa que la contabilidad se debe ceñir a los principios y normas que la regulan, de tal manera que le permita identificar, medir, clasificar, registrar, interpretar, analizar, evaluar, e informar, las operaciones del ente económico de forma clara, completa y fidedigna. Información contable, cualidades:
+            br
+            br 
+            ul.lista-ul
+              li 
+                i.fas.fa-angle-right.c1
+                p.mb-0 Comprensible y clara.
+              li 
+                i.fas.fa-angle-right.c1
+                p.mb-0 Útil, pertinente y confiable.
+              li 
+                i.fas.fa-angle-right.c1
+                p.mb-0 Oportuna con el valor de la realimentación.
+              li 
+                i.fas.fa-angle-right.c1
+                p.mb-0 Neutral, verificable mostrando fielmente los hechos económicos de la empresa.
+              li 
+                i.fas.fa-angle-right.c1
+                p.mb-0 Comparable cuando ha sido preparada basada en informes. 
     .row.mt-5
       .col-sm-3.mt-3
+        p.mb-4 A continuación, se presentan algunos conceptos de la contabilidad, según el decreto 2649 de 1993.
         figure
-          img(src="@/assets/curso/temas/tema2/img4.png", alt="alt")
+          img.img-a.img-t(src="@/assets/curso/temas/tema2/2.png", alt="alt")
       .col-sm-8
         SlyderF(columnas="col-sm-6")
-          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-2
+          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-3.h-100
             .row.justify-content-center.mb-4
               .col-sm-2.col-lg-3.mb-4.mb-lg-0
                 figure
@@ -104,7 +126,7 @@
               .col-sm-12                   
                   h3.texto-centro Ente económico
                   p.mb-5.texto-centro Es como se denomina a la empresa o actividad económica organizada.<br>
-          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-2
+          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-3.h-100
             .row.justify-content-center.mb-3
               .col-sm-2.col-lg-3.mb-4.mb-lg-0
                 figure
@@ -112,8 +134,8 @@
             .row
               .col-sm-12                
                 h3.texto-centro Continuidad
-                p.text-small.texto-centro Los hechos económicos deben ser contabilizados y revelados, informando si la empresa puede continuar o no estará funcionando normalmente en periodos futuros.
-          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-2
+                p.texto-centro Los hechos económicos deben ser contabilizados y revelados, informando si la empresa puede continuar o no estará funcionando normalmente en periodos futuros.
+          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-3.h-100
             .row.justify-content-center.mb-3
               .col-sm-2.col-lg-3.mb-4.mb-lg-0
                 figure
@@ -121,8 +143,8 @@
             .row.justify-content-center 
               .col-sm-12 
                 h3.texto-centro Unidad de medida 
-                p.text-small.texto-centro Se refiere a la moneda funcional que es la que compete al entorno económico fundamental en el que opera la entidad y que, por lo general, es el entorno en el que ella produce y utiliza el efectivo ante todo.
-          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-2
+                p.texto-centro Se refiere a la moneda funcional que es la que compete al entorno económico fundamental en el que opera la entidad y que, por lo general, es el entorno en el que ella produce y utiliza el efectivo ante todo.
+          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-3.h-100
             .row.justify-content-center.mb-3
               .col-sm-2.col-lg-3.mb-4.mb-lg-0
                 figure
@@ -130,8 +152,8 @@
             .row
               .col-sm-12  
                 h3.texto-centro Periodo 
-                p.text-small.texto-centro Preparación de los estados financieros, situación por la que incursiona la empresa durante un ciclo de operaciones que se presenta por lo menos una vez al año con un corte al 31 de diciembre.
-          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-2
+                p.texto-centro Preparación de los estados financieros, situación por la que incursiona la empresa durante un ciclo de operaciones que se presenta por lo menos una vez al año con un corte al 31 de diciembre.
+          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-3.h-100
             .row.justify-content-center.mb-3
               .col-sm-2.col-lg-3.mb-4.mb-lg-0
                 figure
@@ -139,9 +161,9 @@
             .row
               .col-sm-12  
                 h3.texto-centro Valuación y medición  
-                p.text-small.texto-centro Valuación se refiere al cálculo que se lleva a cabo con el fin de destinar un valor económico a un activo.
-                p.text-small.texto-centro Medición se refiere al proceso para determinar el valor por el cual se reconoce a un activo, pasivo, ingreso o gasto.
-          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-2
+                p.texto-centro Valuación se refiere al cálculo que se lleva a cabo con el fin de destinar un valor económico a un activo.
+                p.texto-centro Medición se refiere al proceso para determinar el valor por el cual se reconoce a un activo, pasivo, ingreso o gasto.
+          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-3.h-100
             .row.justify-content-center.mb-3
               .col-sm-2.col-lg-3.mb-4.mb-lg-0
                 figure
@@ -149,8 +171,8 @@
             .row
               .col-sm-12  
                 h3.texto-centro Esencia sobre la forma  
-                p.text-small.texto-centro Es definida por las características y atributos que aseguran que la información proporcionada en los estados financieros es fidedigna y, de esta manera, cumpla con su objetivo que es ser útil en la toma de decisiones económicas.
-          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-2
+                p.texto-centro Es definida por las características y atributos que aseguran que la información proporcionada en los estados financieros es fidedigna y, de esta manera, cumpla con su objetivo que es ser útil en la toma de decisiones económicas.
+          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-3.h-100
             .row.justify-content-center.mb-3
               .col-sm-2.col-lg-3.mb-4.mb-lg-0
                 figure
@@ -158,8 +180,8 @@
             .row
               .col-sm-12  
                 h3.texto-centro Realización  
-                p.text-small.texto-centro Se fundamenta en que una transacción puede anotarse en la contabilidad si se puede constatar que, como resultado de ese movimiento, la empresa va a obtener un beneficio o una pérdida económica.
-          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-2
+                p.texto-centro Se fundamenta en que una transacción puede anotarse en la contabilidad si se puede constatar que, como resultado de ese movimiento, la empresa va a obtener un beneficio o una pérdida económica.
+          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-3.h-100
             .row.justify-content-center.mb-3
               .col-sm-2.col-lg-3.mb-4.mb-lg-0
                 figure
@@ -167,9 +189,9 @@
             .row
               .col-sm-12  
                 h3.texto-centro Asociación  
-                p.text-small.texto-centro Se refiere a la relación que debe subsistir entre los ingresos recibidos, con los gastos y los costos ocasionados, para poder registrar esos movimientos simultáneamente, en la cuenta de resultados.
+                p.texto-centro Se refiere a la relación que debe subsistir entre los ingresos recibidos, con los gastos y los costos ocasionados, para poder registrar esos movimientos simultáneamente, en la cuenta de resultados.
 
-          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-2
+          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-3.h-100
             .row.justify-content-center.mb-3
               .col-sm-2.col-lg-3.mb-4.mb-lg-0
                 figure
@@ -177,10 +199,10 @@
             .row
               .col-sm-12  
                 h3.texto-centro Mantenimiento del patrimonio  
-                p.text-small.texto-centro Evaluación del patrimonio conforme con la ley, de lo aportado, confrontado con lo real.
-                p.text-small.texto-centro Es esencial para conservar la capacidad del sujeto contable y se realiza por medio de las utilidades que este obtiene durante un período.
+                p.texto-centro Evaluación del patrimonio conforme con la ley, de lo aportado, confrontado con lo real.
+                p.texto-centro Es esencial para conservar la capacidad del sujeto contable y se realiza por medio de las utilidades que este obtiene durante un período.
 
-          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-2
+          .tarjeta.tarjeta-naranja.tarjeta-tamano.p-3.h-100
             .row.justify-content-center.mb-3
               .col-sm-2.col-lg-3.mb-4.mb-lg-0
                 figure
@@ -188,14 +210,14 @@
             .row
               .col-sm-12  
                 h3.texto-centro Revelación plena  
-                p.text-small.texto-centro Informa resumidamente, todo lo que se va a evaluar, su situación financiera y los cambios en el patrimonio; se aplica en el momento de realizar un estado financiero detallando los procesos contables en las notas a los estados. Esta norma revela a los estados financieros una información suplementaria sobre la situación económica, administrativa y financiera de la empresa.                
+                p.texto-centro Informa resumidamente, todo lo que se va a evaluar, su situación financiera y los cambios en el patrimonio; se aplica en el momento de realizar un estado financiero detallando los procesos contables en las notas a los estados. Esta norma revela a los estados financieros una información suplementaria sobre la situación económica, administrativa y financiera de la empresa.                
              
     h5.mt-5 Elementos de situación financiera
 
     p En el siguiente tema se identificará la estructura de un estado financiero, reconociendo que los elementos relacionados en primer plano en el balance son los activos, los pasivos y el patrimonio neto. 
     p.mb-5  A continuación, se describen los conceptos asociados a la ecuación patrimonial:      
     
-    ImagenInfografica.color-acento-botones
+    ImagenInfografica.color-secundario
       template(v-slot:imagen)
         .row.justify-content-center
           .col-sm-6  
@@ -299,14 +321,14 @@
           img(src="@/assets/curso/temas/tema2/img11.png", alt="alt")
 
 
-    TabsA.color-primario.mt-5
-      .tarjeta.color-primario--borde.color-contenido.p-4(titulo="Composición de un estado<br> de resultados")
+    TabsC.color-primario.mt-5
+      .tarjeta.color-primario--borde.color-contenido.p-4.mb-3(titulo="Composición de un estado<br> de resultados")
         .row.justify-content-center
           .col-md-2.mt-2
             figure
               img(src="@/assets/curso/temas/tema2/tj5.png", alt="alt")
           .col-md-8
-            h4 Composición de un Estado de resultados
+
             p  
              span.text-bold Ingresos: 
              |está conformado por los ingresos que genera una entidad debido a la venta de inventarios, la prestación de servicios y demás actividades que realice la empresa.
@@ -314,22 +336,22 @@
              span.text-bold Gastos y costos: 
              |son decrementos de los activos, o incrementos de los pasivos de una entidad durante un periodo contable, con la intención de generar ingresos, y con un impacto desfavorable en la utilidad o pérdida neta.
               
-      .tarjeta.color-primario--borde.color-contenido.p-4(titulo="¿Cómo se utiliza un estado<br> de resultados?")
+      .tarjeta.color-primario--borde.color-contenido.p-4.mb-3(titulo="¿Cómo se utiliza un estado<br> de resultados?")
         .row.justify-content-center
           .col-md-2.mt-2
             figure
               img(src="@/assets/curso/temas/tema2/tj6.png", alt="alt")
           .col-md-8
-            h4 ¿Cómo se utiliza un estado de resultados?
+
             p Se deriva de un balance de los ingresos, gastos y costos, que busca obtener los niveles de utilidad operativa de la empresa, durante un periodo. 
              
-      .tarjeta.color-primario--borde.color-contenido.p-4(titulo="Partes de un estado<br> de resultados")
+      .tarjeta.color-primario--borde.color-contenido.p-4.mb-3(titulo="Partes de un estado<br> de resultados")
         .row.justify-content-center
           .col-md-2.mt-2
             figure
               img(src="@/assets/curso/temas/tema2/tj7.png", alt="alt")
           .col-md-8
-            h4 Partes de un estado de resultados
+
             ol.lista-ol--cuadro
               li 
                 .color-lista-verde--vineta
@@ -344,13 +366,13 @@
                   span.text-bold > 
                 | &nbspIndicar el periodo al que corresponden los resultados obtenidos; pueden ser mensual, trimestral, semestral y anual.
 
-      .tarjeta.color-primario--borde.color-contenido.p-4(titulo="Utilidades")
+      .tarjeta.color-primario--borde.color-contenido.p-4.mb-3(titulo="Utilidades")
         .row.justify-content-center
           .col-md-2.mt-2
             figure
               img(src="@/assets/curso/temas/tema2/tj8.png", alt="alt")
           .col-md-8
-            h4 Utilidades
+
             ol.lista-ol--cuadro
               li 
                 .color-lista-verde--vineta
