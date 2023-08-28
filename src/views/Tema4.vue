@@ -19,7 +19,7 @@
         .row
           .col-md-7.p-5
             h4 Lavado de activos
-            p Se refiere a legalizar recursos de origen ilícito; la procedencia de dichos bienes no se sabe de donde salen, nunca será legal, a pesar de la cantidad de transacciones que se realicen. En repetidas oportunidades, las personas no saben cuándo se está cometiendo el delito de lavado de activos. Toda persona jurídica o natural que adquiera, resguarde, invierta, transporte, transforme, custodie, o administre, bienes procedentes de actividades de enriquecimiento ilícito, narcotráfico, extorsión, rebelión, secuestro, delitos contra la administración pública, tráfico de migrantes, trata de personas, tráfico de armas o delitos contra el sistema financiero, están incurriendo en delitos de lavado. Estos delincuentes son denominados como individuos al margen de la ley.          
+            p Se refiere a legalizar recursos de origen ilícito; la procedencia de dichos bienes no se sabe de dónde salen, nunca será legal, a pesar de la cantidad de transacciones que se realicen. En repetidas oportunidades, las personas no saben cuándo se está cometiendo el delito de lavado de activos. Toda persona jurídica o natural que adquiera, resguarde, invierta, transporte, transforme, custodie, o administre, bienes procedentes de actividades de enriquecimiento ilícito, narcotráfico, extorsión, rebelión, secuestro, delitos contra la administración pública, tráfico de migrantes, trata de personas, tráfico de armas o delitos contra el sistema financiero, están incurriendo en delitos de lavado. Estos delincuentes son denominados como individuos al margen de la ley.          
           .col-md-5.p-5
             .row.justify-content-center
               .col-md-8   
