@@ -279,17 +279,44 @@
           .col-sm-6  
             figure 
               img(src='@/assets/curso/temas/tema2/img9.png', alt='')
-      .tarjeta(x="48%" y="20%")
-        figure 
-          img(src='@/assets/curso/temas/tema2/tjd4.png', alt='')
+      .tarjeta.bgimg.p-4(x="48%" y="20%")
+        h4.text-center Grupo uno
+        ul.lista-ul
+          li 
+            i.fas.fa-angle-right.cv
+            p.mb-0 Emisores de valores, entidades de interés público.
+          li 
+            i.fas.fa-angle-right.cv
+            p.mb-0 Activos superiores a 30,000 SMMLV.
+          li 
+            i.fas.fa-angle-right.cv
+            p.mb-0 Planta de personal superior a 200 trabajadores.         
 
-      .tarjeta(x="35%" y="65%" )
-        figure 
-          img(src='@/assets/curso/temas/tema2/tjd6.png', alt='')
+      .tarjeta.bgimg.p-4(x="35%" y="65%" )
+        h4.text-center Grupo tres
+        ul.lista-ul
+          li 
+            i.fas.fa-angle-right.cv
+            p.mb-0 Activos inferiores a 500 SMMLV.
+          li 
+            i.fas.fa-angle-right.cv
+            p.mb-0 Planta de personal igual o inferior a 10 trabajadores.         
 
-      .tarjeta(x="62%" y="60%" )
-        figure 
-          img(src='@/assets/curso/temas/tema2/tjd5.png', alt='')
+      .tarjeta.bgimg.p-4(x="62%" y="60%" )
+        h4.text-center Grupo dos
+        ul.lista-ul
+          li 
+            i.fas.fa-angle-right.cv
+            p.mb-0 Que no sean emisores de valores ni de interés público.
+          li 
+            i.fas.fa-angle-right.cv
+            p.mb-0 Activos entre 500 y 30,000 SMMLV.
+          li 
+            i.fas.fa-angle-right.cv
+            p.mb-0 Planta de personal entre 11 y 200 trabajadores.
+          li 
+            i.fas.fa-angle-right.cv
+            p.mb-0 Ingresos iguales o superiores a 6000 SMMLV.         
 
     .row.justify-content-center.align-items-center.mb-5           
       .col-lg-10
