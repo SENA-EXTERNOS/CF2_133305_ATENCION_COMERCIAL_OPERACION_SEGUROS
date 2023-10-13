@@ -82,7 +82,7 @@
         figure
           img(src="@/assets/curso/temas/tema2/img2.png", alt="alt")
       .col-lg-8.p-3
-        p El objetivo de la contabilidad es el de mejorar el tratamiento de los recursos financieros de una empresa. Por otra parte, podemos encontrar en el decreto 2649 de 1993, el concepto de contabilidad: “la contabilidad permite identificar, medir, clasificar, registrar, interpretar, evaluar, e informar las operaciones de un ente económico, de forma clara completa y fidedigna”; podemos deducir que es una ciencia y un arte de las transacciones financieras registradas por una empresa, basada en la razón del objeto social y ubicando al ente para la obtención de informes financieros. La contabilidad se basa en la ecuación patrimonial: activo = pasivo + patrimonio.
+        p El objetivo de la contabilidad es el de mejorar el tratamiento de los recursos financieros de una empresa. Por otra parte, podemos encontrar en el decreto 2649 de 1993, el concepto de contabilidad: “la contabilidad permite identificar, medir, clasificar, registrar, interpretar, evaluar e informar las operaciones de un ente económico, de forma clara completa y fidedigna”; podemos deducir que es una ciencia y un arte de las transacciones financieras registradas por una empresa, basada en la razón del objeto social y ubicando al ente para la obtención de informes financieros. La contabilidad se basa en la ecuación patrimonial: activo = pasivo + patrimonio.
 
     .row.justify-content-center
       .col-md-11
@@ -91,7 +91,7 @@
             :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/1.png')})`}"
           )
           .bloque-texto-g__texto.p-4
-            p.mb-0 El artículo 1º del Decreto 2649 de 1993, expresa que la contabilidad se debe ceñir a los principios y normas que la regulan, de tal manera que le permita identificar, medir, clasificar, registrar, interpretar, analizar, evaluar, e informar, las operaciones del ente económico de forma clara, completa y fidedigna. Información contable, cualidades:
+            p.mb-0 El artículo 1º del Decreto 2649 de 1993, expresa que la contabilidad se debe ceñir a los principios y normas que la regulan, de tal manera que le permita identificar, medir, clasificar, registrar, interpretar, analizar, evaluar e informar, las operaciones del ente económico de forma clara, completa y fidedigna. Información contable, cualidades:
             br
             br 
             ul.lista-ul
@@ -111,10 +111,10 @@
                 i.fas.fa-angle-right.c1
                 p.mb-0 Comparable cuando ha sido preparada basada en informes. 
     .row.mt-5
-      .col-lg-3.col-6.mt-3
-        p.mb-4 A continuación, se presentan algunos conceptos de la contabilidad, según el decreto 2649 de 1993.
+      .col-lg-3.col-6.mb-lg-0.mb-4.mt-3
+        p.mb-4 A continuación, se presentan algunos conceptos de la contabilidad, según el #[b decreto 2649 de 1993.]
         figure
-          img.img-a.img-t(src="@/assets/curso/temas/tema2/2.png", alt="alt")
+          img.img-a.img-tmx-auto(src="@/assets/curso/temas/tema2/2.png", alt="alt")
       .col-lg-8
         SlyderF(columnas="col-lg-6")
           .tarjeta.tarjeta-naranja.tarjeta-tamano.p-3.h-100
@@ -235,8 +235,7 @@
         figure 
           img(src='@/assets/curso/temas/tema2/tjd3.png', alt='')
 
-    <Separador></Separador>
-
+    separador
     #t_2_1.titulo-segundo.color-acento-contenido.mt-5
        h2 2.1 Normas internacionales
     
@@ -248,30 +247,30 @@
     .row.justify-content-center.mt-5
       .col-md-10
         .cajon.color-primario.tarjeta-naranja.p-4  
-           p.mb-0 Existen dos grandes normas a nivel internacional: <b>las Normas Internacionales de Información Financiera (NIIF)</b> – International Financial Reporting Standards (IFRS) y las <b>Normas Internacionales de Contabilidad (NIC)</b> – <i>International Accounting Standards</i> (IAS). Las NIIF están conformadas desde la norma 1, hasta la norma 13 y las NIC comprenden desde la norma 1, hasta la norma 41.
+           p.mb-0 Existen dos grandes normas a nivel internacional: <b>las Normas Internacionales de Información Financiera (NIIF)</b> – #[em International Financial Reporting Standards] (IFRS) y las <b>Normas Internacionales de Contabilidad (NIC)</b> – <i>International Accounting Standards</i> (IAS). Las NIIF están conformadas desde la norma 1, hasta la norma 13 y las NIC comprenden desde la norma 1, hasta la norma 41.
 
     p.mt-5 A continuación, se profundiza un poco más sobre las normas internacionales:
 
     .row.justify-content-center.mt-5
-      .col-md-8
+      .col-lg-8.order-lg-1.order-2
         LineaTiempoD(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
           .row(numero="1" titulo="NIIF – Normas Internacionales de Información Financiera")
-            .col-md-12.mb-8.mb-md-0
+            .px-2
               p Las NIIF forman parte de unos estándares contables universales fundados para agrupar o unificar la información financiera, presentada por el sector empresarial, para beneficiar la ejecución de negocios nacionales e internacionales.
               p De acuerdo con lo anterior, para poseer unos estándares contables universales y simplificar la ejecución de negocios, la <i>International Accounting Standards Board</i>, más conocida como IASB, fundó las Normas Internacionales de Información Financiera (NIIF). En el caso de Colombia, estas normas internacionales de contabilidad fueron acogidas hasta el año 2009, con la expedición de la Ley 1314 del mismo año y donde estas normas se comenzaron a implementar en el año 2014.
 
           .row(numero="2" titulo="NIC – Normas Internacionales de Contabilidad")
-            .col-md-12.mb-8.mb-md-0
+            .px-2
               p Las Normas Internacionales de Contabilidad, conocidas como NIC, hacen parte de una serie de reglas emitidas por el Comité de Normas Internacionales de Contabilidad, fundadas con el objetivo de instaurar un estándar para la presentación y elaboración de los estados financieros de las organizaciones. El objetivo primordial de estas normas es que las organizaciones puedan realizar sus estados financieros de una forma en la que se refleje fielmente la situación económica de la misma, así como que estos estados sean entendidos por la mayoría de los usuarios de la información financiera.
 
           .row(numero="3" titulo="CINIIF – Comité de Interpretaciones de Normas Internacionales de Información Financiera")
-            .col-md-12.mb-8.mb-md-0
+            .px-2
               p El CINIIF es el ente encargado de emitir interpretaciones sobre los Estándares Internacionales, en todo el mundo. En el ámbito contable internacional se considera que las interpretaciones realizadas por el CINIIF, se clasifican en tres grupos.
-      .col-md-3
+      .col-lg-3.col-6.order-lg-2.order-1.mb-lg-0.mb-4
         figure
           img(src="@/assets/curso/temas/tema2/img8.png", alt="alt")
 
-    p.mt-5 A continuación se presentan las características de los tres grupos:
+    p.mt-5 A continuación, se presentan las características de los tres grupos:
 
     ImagenInfografica
       template(v-slot:imagen)

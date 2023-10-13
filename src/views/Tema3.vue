@@ -48,28 +48,26 @@
     p.mt-5.mb-5 El análisis financiero se divide en: análisis vertical y análisis horizontal. A continuación se profundiza sobre cada uno de estos.
 
     TabsC.color-acento-contenido
-        .py-3.py-md-4(titulo="Análisis vertical")
-          .row
-            .col-md-12.mb-4.mb-md-0
-              h4 Análisis vertical
-              p Es un análisis estático, estudia la situación financiera en un momento dado, no evidencia los cambios ocurridos en el transcurso del tiempo. Se analizan los estados financieros de un solo período.
-              p.mt-5 Para su cálculo, se divide el valor de una cuenta del activo sobre el total del activo que viene a ser la base de comparación.
-              .row.justify-content-center
-                .col-md-4
-                  figura
-                    img(src='@/assets/curso/temas/tema3/1.svg', alt='alt')
+      .py-3.py-md-4(titulo="Análisis vertical")
+        .row
+          .col-md-12.mb-4.mb-md-0
+            p Es un análisis estático, estudia la situación financiera en un momento dado, no evidencia los cambios ocurridos en el transcurso del tiempo. Se analizan los estados financieros de un solo período.
+            p.mt-5 Para su cálculo, se divide el valor de una cuenta del activo sobre el total del activo que viene a ser la base de comparación.
+            .row.justify-content-center
+              .col-md-4
+                figura
+                  img(src='@/assets/curso/temas/tema3/1.svg', alt='alt')
 
-        .py-3.py-md-4(titulo="Análisis horizontal")
-          .row
-            .col-md-12.mb-4.mb-md-0
-              h4 Análisis horizontal
-              p Compara estados financieros 
-               span.text-bold homogéneos 
-               | correspondientes a dos o más periodos, es dinámico; permite determinar cambios o variaciones de un periodo a otro e interpretar dichas variaciones para una oportuna toma de decisiones. Se estudian los estados financieros de más de un período y/o más de una empresa.
-              .row.justify-content-center
-                .col-md-4
-                  figura
-                    img(src='@/assets/curso/temas/tema3/formula2.png', alt='alt')
+      .py-3.py-md-4(titulo="Análisis horizontal")
+        .row
+          .col-md-12.mb-4.mb-md-0
+            p Compara estados financieros 
+              span.text-bold homogéneos 
+              | correspondientes a dos o más periodos, es dinámico; permite determinar cambios o variaciones de un periodo a otro e interpretar dichas variaciones para una oportuna toma de decisiones. Se estudian los estados financieros de más de un período y/o más de una empresa.
+            .row.justify-content-center
+              .col-md-4
+                figura
+                  img(src='@/assets/curso/temas/tema3/formula2.png', alt='alt')
 
     h5.mt-5 Razones o indicadores financieros
     p Contablemente, una razón financiera es una comparación numérica entre dos cuentas de un mismo estado financiero o dos estados financieros diferentes, con el fin de formarse una idea acerca del comportamiento de algún aspecto, sector, o área específica de la organización. Son cocientes que aceptan comparar la situación financiera de la entidad, con excelentes valores.

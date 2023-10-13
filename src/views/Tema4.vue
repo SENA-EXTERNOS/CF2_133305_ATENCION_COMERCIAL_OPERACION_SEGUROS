@@ -17,10 +17,9 @@
     TabsB.color-acento-contenido.color-verde-contenido-tab.mt-5
       .py-4.py-md-5(titulo="Lavado de activos" :icono="require('@/assets/curso/temas/tema4/ic1.png')")
         .row
-          .col-md-7.p-5
-            h4 Lavado de activos
+          .col-lg-7.p-4
             p Se refiere a legalizar recursos de origen ilícito; la procedencia de dichos bienes no se sabe de dónde salen, nunca será legal, a pesar de la cantidad de transacciones que se realicen. En repetidas oportunidades, las personas no saben cuándo se está cometiendo el delito de lavado de activos. Toda persona jurídica o natural que adquiera, resguarde, invierta, transporte, transforme, custodie, o administre, bienes procedentes de actividades de enriquecimiento ilícito, narcotráfico, extorsión, rebelión, secuestro, delitos contra la administración pública, tráfico de migrantes, trata de personas, tráfico de armas o delitos contra el sistema financiero, están incurriendo en delitos de lavado. Estos delincuentes son denominados como individuos al margen de la ley.          
-          .col-md-5.p-5
+          .col-lg-5.col-10.mx-auto.p-5
             .row.justify-content-center
               .col-md-8   
                  figure
@@ -28,10 +27,9 @@
   
       .py-4.py-md-5(titulo="Centrales de información financiera" :icono="require('@/assets/curso/temas/tema4/ic2.png')")
         .row
-          .col-md-7.p-5
-            h4 Centrales de información financiera
+          .col-lg-7.p-4
             p La Superintendencia Bancaria expidió, entre otras, las Resoluciones No. 1980 y 2195 de 1994, por medio de las cuales dispuso la obligatoriedad de vigilar permanentemente el cumplimiento de las normas referentes a cupo individual de crédito y sobre los niveles de concentración crediticia, exigiendo a las entidades vigiladas la consulta de bancos de datos de información comercial y, en particular, el endeudamiento consolidado vigente de los clientes con el conjunto del sector financiero, información que se ubica y maneja en las llamadas centrales de riesgo. Así mismo, por Resolución No. 023 de 1995 de la referida superintendencia, se hace obligatorio remitir a esta la información relacionada con el endeudamiento de clientes, información que debe ser producto de la correspondiente evaluación de cartera.
-          .col-md-5.p-5
+          .col-lg-5.col-10.mx-auto.p-5
             .row.justify-content-center
               .col-md-8     
                  figure

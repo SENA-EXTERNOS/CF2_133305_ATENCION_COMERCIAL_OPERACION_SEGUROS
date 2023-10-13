@@ -26,84 +26,80 @@
 
       SlyderA(tipo="b").color-primario.p-5.bg5
         .row.justify-content-center.align-items-start          
-          .col-md-5
+          .col-lg-5
             h5 Interés simple
             p Se paga al final de cada periodo, por lo tanto, el capital prestado o invertido, se mantiene, no varía; la cantidad recibida por interés siempre va a ser la misma y eso significa, que no hay capitalización de los intereses. 
             p.mt-4 El interés resulta de multiplicar el capital prestado, por la tasa o porcentaje, por las unidades de tiempo total que corresponde a la obligación.
-          .col-md-6  
+          .col-lg-6
             figure
-                img(src='@/assets/curso/temas/tema1/sl1.png', alt='alt')
+                img(src='@/assets/curso/temas/tema1/sl1.svg', alt='alt')
         .row.justify-content-center.align-items-start      
-          .col-md-5
-            h5 Interés simple 
+          .col-lg-5
             p.text-bold Ejemplo 
             p Maicol coloca un CDT en una entidad financiera y desea saber: ¿Qué interés producen $60.000 en un año, en 6 meses y veintiún días, al 24 %?         
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/sl9.png', alt='alt')
 
         .row.justify-content-center.align-items-start 
-          .col-md-5
+          .col-lg-5
             h5 Monto de un capital utilizando interés simple 
             p Se denomina monto de un capital, valor futuro, valor acumulado o valor nominal, a la suma entre el capital más el interés simple.             
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/sl8.png', alt='alt')
         
         .row.justify-content-center.align-items-start      
-          .col-md-5
-            h5 Monto de un capital utilizando interés simple 
+          .col-lg-5
             p.text-bold Ejemplo 
             p Si con el ejercicio anterior sabemos el monto, calculamos el monto para comprobar que está bien $82.440.
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/sl7.png', alt='alt')
 
         .row.justify-content-center.align-items-start 
-          .col-md-5
+          .col-lg-5
             h5 Valor futuro de interés simple
             p El monto o valor futuro con interés simple (F) es la suma entre el capital inicial y el interés simple ganado. 
             p Reemplazando y simplificando, se obtiene el siguiente conjunto de ecuaciones como se observa en la imagen.
-          .col-md-6
+          .col-lg-6
             figure
-              img(src='@/assets/curso/temas/tema1/sl6.png', alt='alt')
+              img(src='@/assets/curso/temas/tema1/sl6.svg', alt='alt')
 
         .row.justify-content-center.align-items-start 
-          .col-md-5
+          .col-lg-5
             h5 Interés compuesto
             p Al final de cada periodo el capital cambia, debido a que los intereses se adicionan al capital y forman un nuevo capital denominado monto; sobre este monto se vuelven a calcular intereses y, por lo tanto, hay capitalización de los intereses.
-            p Se define la operación financiera, el capital aumenta al final de cada periodo por la suma de los intereses vencidos. El resultado es el valor del capital que se le denomina valor futuro y al valor de los intereses, el interés compuesto. El interés compuesto es indispensable en la Ingeniería Económica, Matemática Financieras, Evaluación de Proyectos y, en general, por todo el sistema financiero colombiano.
+            p Se define la operación financiera, el capital aumenta al final de cada periodo por la suma de los intereses vencidos. El resultado es el valor del capital que se le denomina valor futuro y al valor de los intereses, el interés compuesto. El interés compuesto es indispensable en la Ingeniería Económica, Matemática Financiera, Evaluación de Proyectos y, en general, por todo el sistema financiero colombiano.
             p Este interés se valora periodo a periodo del dinero comprometido en la operación financiera y, por tal motivo, es el tipo de interés más utilizado en el sistema financiero.
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/sl5.png', alt='alt')
 
         .row.justify-content-center.align-items-start 
-          .col-md-5
-            h5.mt-3 Interés compuesto
+          .col-lg-5
             h5 Ejemplo
             p.mt-1 Una persona invierte el día de hoy una suma de $300.000 en un CDT que paga 8 % cuatrimestral; se solicita demostrar cómo se presenta la capitalización de este dinero durante dos años.<br>C = $300.000<br>i = 8 %<br>T = 6 porque son dos años (1 cuatrimestre es = 4 meses entonces 1 año tiene 3 cuatrimestres)
             p El valor futuro del CDT es: $476.062<br>Interés compuesto es: $176.062            
             p Este es otro método para realizar, de una forma más rápida, la amortización del dinero en la inversión.
             p F = C (1 + i)ⁿ<br>F = $300.000 (1 + 8 %)⁶ = $476.062,30
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/sl4.png', alt='alt')
 
         .row.justify-content-center.align-items-start 
-          .col-md-5
+          .col-lg-5
             h5 Cálculo de un Valor Presente (VP) con un Valor Futuro (VF)
             p Tomando como base la información del ejemplo anterior, podemos desarrollar este cálculo.              
-          .col-md-6
+          .col-lg-6
             figure
               img(src='@/assets/curso/temas/tema1/sl3.png', alt='alt')
 
         .row.justify-content-center.align-items-start      
-          .col-md-5
-              h5 Cálculo de un Valor Presente (VP) con un Valor Futuro (VF)
-              p #[span.text-bold]Ejemplo
-              p.mt-4 Maicol recibirá la suma de $476.062 dentro de dos años, por un CDT que paga el 8 % cuatrimestral; ¿cuánto fue la inversión de la persona?.
-          .col-md-6  
+          .col-lg-5
+            .h5 Ejemplo
+            p.mt-4 Maicol recibirá la suma de $476.062 dentro de dos años, por un CDT que paga el 8 % cuatrimestral; ¿cuánto fue la inversión de la persona?.
+          .col-lg-6  
               figure
                   img(src='@/assets/curso/temas/tema1/sl2.png', alt='alt')
 
@@ -120,9 +116,9 @@
           
           h5 Fórmula:
           .row.justify-content-center
-           .col-sm-3
+           .col-lg-3.col-6
               figure
-                img(src='@/assets/curso/temas/tema1/formula1.png', alt='')
+                img(src='@/assets/curso/temas/tema1/formula1.svg', alt='')
           h5 Ejemplo: 
           p.mb-4 Un estudiante consigna hoy en una cuenta de ahorros su mesada de $700.000; al cabo de 5 meses, tiene en la cuenta de ahorros $800.000. 
           .col-sm.mb-5.mb-sm-0
@@ -151,7 +147,7 @@
 
           h5 Solución:
           .row.justify-content-center
-           .col-sm-3
+           .col-lg-3.col-6
               figure
                 img(src='@/assets/curso/temas/tema1/formula2.png', alt='')
 
@@ -239,7 +235,6 @@
 
     TabsC.color-acento-contenido
       .py-4.py-md-5(titulo="Anualidad ordinaria vencida")
-          h5 Anualidad ordinaria vencida
           p.mt-3 Las anualidades ordinarias vencidas, son aquellas en las cuales el primer pago se efectúa un periodo después de la fecha de negociación, conocida como 
             span.text-bold periodo cero. 
             | El valor futuro es equivalente a la serie uniforme vencida del pago de las cuotas.
@@ -257,9 +252,9 @@
               li 
                 | P = Valor equivalente
               li  
-                | I = interés
+                | i = interés
               li 
-                | N = tiempo
+                | n = tiempo
 
           h5 Ejemplo: 
             p.mt-3 se hacen pagos efectuados al final de cada año, durante 12 años por un valor de $2.000.000 desembolsados al primer año a una tasa de 20 % anual.  
@@ -271,7 +266,6 @@
 
 
       .py-4.py-md-5(titulo="Valor presente de una anualidad ordinaria o vencida")
-          h5 Valor presente de una anualidad ordinaria o vencida:
           p.mt-3 Cantidad de dinero, diferido en cuotas iguales, en períodos iguales, y aún bajo interés compuesto, entregará un valor equivalente total en el momento presente.
 
           h5 Fórmula:
@@ -287,20 +281,19 @@
               li 
                 | P = Valor equivalente
               li  
-                | I = interés
+                | i = interés
               li 
-                | N = tiempo
+                | n = tiempo
 
           h5 Ejemplo: 
             p.mt-3 ¿Cuánto se debe depositar el día de hoy con el fin de retirar $5.000.000 al final de cada año, durante 12 años, si la tasa de interés es del 10 % anual?
 
             .row.justify-content-center
-              .col-lg-4.col-sm-8.mt-2
+              .col-lg-6.col-sm-8.mt-2
                 figure
                   img(src='@/assets/curso/temas/tema1/formula11.svg', alt='')
 
       .py-4.py-md-5(titulo="Valor futuro de una anualidad ordinaria o vencida")
-          h5 Valor futuro de una anualidad ordinaria o vencida:
           p.mt-3 Valor acumulado al final de n periodos, acordando depósitos de $X cantidad y reconociendo un interés del i % por periodo.
 
           h5 Fórmula:
@@ -313,15 +306,15 @@
             p.mt-3 qué valor final corresponde a una serie uniforme de desembolsos de $10.000.000 efectuados al final de cada año, durante 12 años, si la tasa de interés es del 20 % anual.
 
             .row.justify-content-center
-              .col-sm-4.mt-2
+              .col-lg-6.mt-2
                 figure
-                  img(src='@/assets/curso/temas/tema1/formula13.png', alt='')
+                  img(src='@/assets/curso/temas/tema1/formula13.svg', alt='')
 
     .row.justify-content-center
       .col-md-10
         .tarjeta.color-secundario.p-3.mt-5
           .row.justify-content-center.align-items-center
-            .col-lg-1
+            .col-lg-1.col-3.mb-lg-0.mb-4
                 img(src="@/assets/curso/temas/tema1/img2.png")
             .col-lg
                 h3.mt-3 Ejercicios de aplicación matemática financiera
