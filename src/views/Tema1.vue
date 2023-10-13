@@ -295,9 +295,9 @@
             p.mt-3 ¿Cuánto se debe depositar el día de hoy con el fin de retirar $5.000.000 al final de cada año, durante 12 años, si la tasa de interés es del 10 % anual?
 
             .row.justify-content-center
-              .col-sm-4.mt-2
+              .col-lg-4.col-sm-8.mt-2
                 figure
-                  img(src='@/assets/curso/temas/tema1/formula11.png', alt='')
+                  img(src='@/assets/curso/temas/tema1/formula11.svg', alt='')
 
       .py-4.py-md-5(titulo="Valor futuro de una anualidad ordinaria o vencida")
           h5 Valor futuro de una anualidad ordinaria o vencida:

@@ -103,7 +103,7 @@
           p La empresa dispone de $(resultado de la ecuación) del activo corriente como respaldo para cubrir cada peso del pasivo inferior a un año.
           p.mt-3  El criterio tiene una relación adecuada entre los activos y pasivos corrientes de 1 a 1, especialmente desde el punto de vista del acreedor; el indicador es adecuado cuando los valores sean más altos. No obstante, esta última percepción debe tener en cuenta que un índice demasiado elevado puede ocultar un manejo inadecuado de activos corrientes, pudiendo tener las empresas excesos de liquidez poco productivos.
           .row.justify-content-center
-           .col-sm-8
+           .col-lg-8
               figure
                 img.my-5(src='@/assets/curso/temas/tema3/2.svg', alt='')
 
@@ -118,7 +118,7 @@
           p La empresa cuenta con $(resultado de la ecuación) para responder por cada peso que debe a corto tiempo.
           p.mt-3  No se puede precisar cuál es el valor ideal para este indicador; el más adecuado podría acercarse a 1, aunque es admisible por debajo de este nivel. Existe una gran diferencia, por razones obvias, entre lo que debe ser la prueba ácida para una empresa industrial, por ejemplo, que para una empresa comercial, pues de acuerdo con su actividad, las cantidades de inventario que manejan son distintas, teniendo esta cuenta diferente influencia en la valoración de la liquidez.
           .row.justify-content-center
-           .col-sm-8
+           .col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema3/4.svg', alt='')
 
@@ -130,7 +130,7 @@
 
           p.mt-3  La empresa cuenta con un capital neto de trabajo (resultado de la ecuación) el cual le permite pagar sus gastos operativos anuales, una vez cubiertos los valores de las obligaciones a corto plazo.
           .row.justify-content-center
-           .col-sm-8
+           .col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema3/formula5.png', alt='')
 
@@ -149,7 +149,7 @@
 
           p.mt-3 Indica a qué (resultado de ecuación) % de los activos de la organización, tienen derecho los acreedores al ser financiada por ellos; si el indicador es bajo, le permite acceso a más crédito.
           .row.justify-content-center
-           .col-sm-8
+           .col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema3/5.svg', alt='')
 
@@ -160,7 +160,7 @@
 
           p.mt-3  Indica que el (resultado de la ecuación) % de las obligaciones financieras corresponde a las ventas o las obligaciones financieras participan en un (resultado de la ecuación) % de sus ventas.
           .row.justify-content-center
-           .col-sm-8
+           .col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema3/6.svg', alt='')
 
@@ -171,7 +171,7 @@
 
           p.mt-3  Los gastos financieros representan el (resultado de la ecuación) % de las ventas. Este indicador brinda al sector financiero, seguridad.
           .row.justify-content-center
-           .col-sm-8
+           .col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema3/7.svg', alt='')
 
@@ -182,7 +182,7 @@
 
           p.mt-3  Indica que tiene (resultado de la ecuación) centavos de deuda por cada peso de patrimonio. 
           .row.justify-content-center
-           .col-sm-8
+           .col-lg-8
               figure
                 img(src='@/assets/curso/temas/tema3/8.svg', alt='')
 </template>

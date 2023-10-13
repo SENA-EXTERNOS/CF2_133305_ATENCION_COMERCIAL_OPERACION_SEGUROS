@@ -36,7 +36,7 @@
     p.mt-5 A continuación, se presentan las diferentes clases de bases de datos:
     
     .row.text-center
-      .col-sm-2.col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.col-sm-6.col-10.mb-4.mb-lg-0
         .tarjeta--boton.tarjeta-slide.arriba.color-secundario.p-4(@mouseover="indicadorTarjetaSlide=false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .row.justify-content-center
@@ -46,7 +46,7 @@
              .col-md-4             
                 .tarjeta-slide__img.responsive(:style="{'background-color': '#E5F2DB','background-image': `url(${require('@/assets/curso/temas/tema2/tj1.png')})`}")
 
-      .col-sm-4.col-lg-3.mb-4.mb-lg-0      
+      .col-lg-3.col-sm-6.col-10.mb-4.mb-lg-0      
         .tarjeta--boton.tarjeta-slide.arriba.color-secundario.p-4(@mouseover="indicadorTarjetaSlide=false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .row.justify-content-center
@@ -56,7 +56,7 @@
              .img-fluid             
                 .tarjeta-slide__img(:style="{'background-color': '#E5F2DB','background-image': `url(${require('@/assets/curso/temas/tema2/tj2.png')})`}")                 
 
-      .col-sm-2.col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.col-sm-6.col-10.mb-4.mb-lg-0
         .tarjeta--boton.tarjeta-slide.arriba.color-secundario.p-4(@mouseover="indicadorTarjetaSlide=false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .row.justify-content-center
@@ -66,7 +66,7 @@
              .img-fluid             
                 .tarjeta-slide__img(:style="{'background-color': '#E5F2DB','background-image': `url(${require('@/assets/curso/temas/tema2/tj3.png')})`}") 
 
-      .col-sm-2.col-lg-3.mb-4.mb-lg-0
+      .col-lg-3.col-sm-6.col-10.mb-4.mb-lg-0
         .tarjeta--boton.tarjeta-slide.arriba.color-secundario.p-4(@mouseover="indicadorTarjetaSlide=false")
           .indicador--hover(v-if="indicadorTarjetaSlide")
           .row.justify-content-center
@@ -111,12 +111,12 @@
                 i.fas.fa-angle-right.c1
                 p.mb-0 Comparable cuando ha sido preparada basada en informes. 
     .row.mt-5
-      .col-sm-3.mt-3
+      .col-lg-3.col-6.mt-3
         p.mb-4 A continuación, se presentan algunos conceptos de la contabilidad, según el decreto 2649 de 1993.
         figure
           img.img-a.img-t(src="@/assets/curso/temas/tema2/2.png", alt="alt")
-      .col-sm-8
-        SlyderF(columnas="col-sm-6")
+      .col-lg-8
+        SlyderF(columnas="col-lg-6")
           .tarjeta.tarjeta-naranja.tarjeta-tamano.p-3.h-100
             .row.justify-content-center.mb-4
               .col-sm-2.col-lg-3.mb-4.mb-lg-0
